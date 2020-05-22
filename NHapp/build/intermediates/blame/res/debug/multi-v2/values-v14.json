@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/androidwversionmanager/build/intermediates/packaged_res/debug/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "198"
+                    }
+                }
+            ]
+        }
+    ]
+}

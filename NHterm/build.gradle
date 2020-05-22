@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+    }
+}
+
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+ext {
+    compileSdkVersion=29
+    minSdkVersion=28
+    targetSdkVersion=29
+    //version=YYYYMMVVRR (Either "VV" for stable version OR "RR" for pre-release candidate (e.g. 0001 for rc1)
+    versionCode=1001
+    versionName="1.1"
+}
+

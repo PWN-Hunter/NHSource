@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+drawable atari_small
+drawable atari_small_nodpi

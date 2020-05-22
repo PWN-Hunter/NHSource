@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk",
+    "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jackpal-termexec2-release-arm64-v8a": {
+      "buildCommand": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/lib /home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjackpal-termexec2.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "jackpal-termexec2",
+      "files": [
+        {
+          "src": "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/process.cpp",
+          "flags": "-target aarch64-none-linux-android28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/hilledkinged/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -I/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/sources/cxx-stl/system/include -I/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/build/intermediates/ndkBuild/release/obj/local/arm64-v8a/libjackpal-termexec2.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

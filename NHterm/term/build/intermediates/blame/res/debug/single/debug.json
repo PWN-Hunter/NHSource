@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_content_paste_white_24dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xxhdpi/ic_content_paste_white_24dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_preferences.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_preferences.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi_ic_content_paste_white_24dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi/ic_content_paste_white_24dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi_btn_close_window.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi/btn_close_window.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_forward.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_forward.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_back.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_menu_back.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_folderup.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_folderup.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_menu_add.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_menu_add.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xxxhdpi/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_add.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_menu_add.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_menu_preferences.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_menu_preferences.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_close_clear_cancel.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_menu_back.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_menu_back.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/layout_term_activity.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/layout/term_activity.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/layout_window_list_new_window.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/layout/window_list_new_window.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_menu_close_clear_cancel.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_menu_add.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_menu_add.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_menu_close_clear_cancel.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/layout_window_list_item.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/layout/window_list_item.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_menu_add.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_menu_add.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_btn_close_window.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/btn_close_window.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi_ic_content_paste_white_24dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi/ic_content_paste_white_24dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_menu_forward.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_menu_forward.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_menu_back.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_menu_back.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_forward.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_menu_forward.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_menu_forward.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_menu_forward.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_back.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_back.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_menu_close_clear_cancel.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_close_clear_cancel.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_windows.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi/ic_menu_windows.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi_ic_content_paste_white_24dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi/ic_content_paste_white_24dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-ldpi-v11_ic_menu_preferences.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-ldpi-v11/ic_menu_preferences.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_menu_preferences.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi-v11/ic_menu_preferences.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_windows.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_windows.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_menu_forward.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_menu_forward.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_service_notification_icon.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xxhdpi/ic_stat_service_notification_icon.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_menu_back.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xhdpi-v11/ic_menu_back.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi_btn_close_window.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi/btn_close_window.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_folder.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_folder.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_preferences.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-mdpi-v11/ic_menu_preferences.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_windows.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-hdpi/ic_menu_windows.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_close_background.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/close_background.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable_ic_menu_add.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable/ic_menu_add.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_content_paste_white_24dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/drawable-xxxhdpi/ic_content_paste_white_24dp.png"
+    }
+]

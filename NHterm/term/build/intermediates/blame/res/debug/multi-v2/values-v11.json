@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "-1,17,-1,-1",
+                        "startColumns": "-1,4,-1,-1",
+                        "startOffsets": "-1,647,-1,-1",
+                        "endLines": "-1,20,-1,-1",
+                        "endColumns": "-1,12,-1,-1",
+                        "endOffsets": "-1,837,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,7,11,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,300,495,728",
+                        "endLines": "6,10,14,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "295,490,723,880"
+                    }
+                }
+            ]
+        }
+    ]
+}

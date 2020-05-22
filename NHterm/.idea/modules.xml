@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" group="kali-nethunter-term-master/emulatorview" />
+      <module fileurl="file://$PROJECT_DIR$/kali-nethunter-term-master.iml" filepath="$PROJECT_DIR$/kali-nethunter-term-master.iml" group="kali-nethunter-term-master" />
+      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" group="kali-nethunter-term-master/libtermexec" />
+      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" group="kali-nethunter-term-master/term" />
+    </modules>
+  </component>
+</project>

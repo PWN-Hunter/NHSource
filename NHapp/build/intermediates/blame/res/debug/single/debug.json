@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_nethunter.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/nethunter.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_duck_hunter.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/duck_hunter.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_ic_system_update_black_36dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/ic_system_update_black_36dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_usbarmory.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/usbarmory.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_delete_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_delete_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_badusb.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/badusb.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_information.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_information.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_add_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_add_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_hid.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/hid.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_source.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/source.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_move_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_move_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_share_black_24dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_usbarmory.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/usbarmory.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mana_hostapd.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mana_hostapd.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_custom_commands.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/custom_commands.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_recyclerview_custom.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_recyclerview_custom.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_perm_device_information.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi/ic_action_perm_device_information.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_duck_hunter.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/duck_hunter.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_add_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_add_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi_ic_gps_fixed_black_18dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi/ic_gps_fixed_black_18dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_search_black_24dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_chroot_manager.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/chroot_manager.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mana_hostapd_wpe.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mana_hostapd_wpe.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_payload_maker.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/payload_maker.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_hid_powershell_http.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/hid_powershell_http.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_recyclerview_result.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_recyclerview_result.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_recyclerview_servicetitle.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_recyclerview_servicetitle.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_delete_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_delete_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_deauth.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/deauth.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_deauth_whitelist.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/deauth_whitelist.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi_ic_gps_fixed_black_18dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi/ic_gps_fixed_black_18dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_delete_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_delete_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_play.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_play.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mitmf_spoof.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_spoof.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_searchsploit.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/searchsploit.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_chroot_manager_download_diaglog.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/chroot_manager_download_diaglog.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_gps_fixed_black_18dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxxhdpi/ic_gps_fixed_black_18dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_badusb.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/badusb.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_searchsploit.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/searchsploit.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_searchsploit_item.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/searchsploit_item.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_vnc_setup.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/vnc_setup.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_move_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_move_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_source_short.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/source_short.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_sidebar.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/sidebar.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_home.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_home.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_recyclerview_dialog_delete.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_createchroot.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/createchroot.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_usb.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_usb.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_base_layout.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/base_layout.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_custom_commands_item.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/custom_commands_item.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_custom_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_custom_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxxhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxxhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_perm_device_information.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi/ic_action_perm_device_information.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_android.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_android.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_move_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_move_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_custom_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_custom_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_custon_commands_dialog.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/custon_commands_dialog.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_hid_windows_cmd.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/hid_windows_cmd.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_mitmf.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/mitmf.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_edit_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_edit_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_custom_commands.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/custom_commands.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_macchanger.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/macchanger.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_settings_applications.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_settings_applications.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_ic_gps_fixed_black_18dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/ic_gps_fixed_black_18dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_sidenav_header.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/sidenav_header.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_duck_hunter_preview.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/duck_hunter_preview.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_metapackagechooser.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/metapackagechooser.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_recyclerview_dialog_delete.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_hid.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/hid.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_vncresolutiondialog.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/vncresolutiondialog.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_memory_24dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_memory_24dp.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxxhdpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi_ic_system_update_black_36dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi/ic_system_update_black_36dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_refresh.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_refresh.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_gps.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/gps.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_recyclerview_dialog_delete.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_deauth.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/deauth.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_hid_powersploit.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/hid_powersploit.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_nh_cropbg.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/nh_cropbg.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nmap.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nmap.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices_edit_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices_edit_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_kaliservices.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/kaliservices.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_activated_color.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/activated_color.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/xml_dummy_accessibility_service.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/xml/dummy_accessibility_service.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_perm_device_information.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-hdpi/ic_action_perm_device_information.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mitmf_responder.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_responder.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_pineapple.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/pineapple.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mana.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mana.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_system_update_black_36dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi/ic_system_update_black_36dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_custom_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_custom_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_kaliservices.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/kaliservices.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_recyclerview_main.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_recyclerview_main.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mitmf_inject.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_inject.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mitmf.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_payload_maker_item.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/payload_maker_item.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_keyboard.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_keyboard.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-ldpi_ic_usb.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-ldpi/ic_usb.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_cast_connected_black_24dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_cast_connected_black_24dp.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_action_network_wifi.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_action_network_wifi.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_action_perm_device_information.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxxhdpi/ic_action_perm_device_information.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_mitmf_general.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_general.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_gps_fixed_black_18dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi/ic_gps_fixed_black_18dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_perm_device_information.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/ic_action_perm_device_information.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_nethunter_edit_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/nethunter_edit_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable_ic_bug_report_black_24dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable/ic_bug_report_black_24dp.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_recyclerview_main.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_recyclerview_main.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_macchanger.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/macchanger.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_duck_hunter_convert.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/duck_hunter_convert.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xhdpi_ic_system_update_black_36dp.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xhdpi/ic_system_update_black_36dp.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/menu_mana.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/menu/mana.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_resolutiondialog.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/resolutiondialog.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-mdpi_offsec_logo_transparent.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-mdpi/offsec_logo_transparent.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_customcommands_add_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/customcommands_add_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/res/merged/debug/layout_macchanger_ifaces_item.xml.flat",
+        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/macchanger_ifaces_item.xml"
+    }
+]
