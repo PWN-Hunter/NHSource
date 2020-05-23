@@ -13,12 +13,12 @@
     <item
         android:id="@+id/f_nethunter_menu_backupDB"
         android:orderInCategory="100"
-        android:title="Backup DB"
+        android:title="Backup Database"
         app:showAsAction="never" />
     <item
         android:id="@+id/f_nethunter_menu_restoreDB"
         android:orderInCategory="100"
-        android:title="Restore DB"
+        android:title="Restore Database"
         app:showAsAction="never" />
     <item
         android:id="@+id/f_nethunter_menu_ResetToDefault"
