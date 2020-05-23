@@ -1170,7 +1170,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="aboutchroot">This is Chroot Manager for Kali. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
+    <string name="aboutchroot">This is Chroot Manager. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
     <string name="add_lauchner_btn_command">Command: </string>
     <string name="add_lauchner_btn_label">Label: </string>
     <string name="admin">UAC Bypass</string>
@@ -1228,7 +1228,7 @@
     <string name="drawer_opened">Drawer opened</string>
     <string name="drawertitlebadusb">Bad USB MITM Attack</string>
     <string name="drawertitlecheckupdate">Check App Update</string>
-    <string name="drawertitlecreatechroot">Kali Chroot Manager</string>
+    <string name="drawertitlecreatechroot">Chroot Manager</string>
     <string name="drawertitlecustomcommands">Custom Commands</string>
     <string name="drawertitledeauth">DeAuth</string>
     <string name="drawertitleduckhunter">DuckHunter HID</string>
@@ -1252,14 +1252,14 @@
     <string name="enable_karma">Enable karma</string>
     <string name="error_icon_content_description">Error</string>
     <string name="execute_attack">Execute Attack</string>
-    <string name="existingchrootfound">An existing Kali chroot directory was found!</string>
+    <string name="existingchrootfound">An existing chroot directory was found!</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="extract_chroot">Decompressing and deploying the Chroot… (~5–10 min)</string>
     <string name="extractinganddeploying">Extracting and Deploying</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="get_external_ip">Get external IP</string>
-    <string name="gps_description">Converts your GPS to nmea then provides to Kali chroot.  Perfect for wardriving with Kismet or just a generic GPS server for Kali.  Requires OTG and external wireless.</string>
+    <string name="gps_description">Converts your GPS to nmea then provides to chroot.  Perfect for wardriving with Kismet or just a generic GPS server for Kali.  Requires OTG and external wireless.</string>
     <string name="gps_help">You may need to give Nethunter permissions to GPS. Go to Settings > Apps > Nethunter > Permissions.  When it starts press: "return" three times, Vol+up and "t", "return.</string>
     <string name="hid_powersploit_description">The Powersploit payload provides you a choice of reverse meterpreter HTTP/S payloads. "URL to payload" should be a URL accessible to the victim machine where the larger payload is downloaded to.</string>
     <string name="hid_windows_cmd_description">This Windows CMD payload allows you to enter raw commands to a Windows command prompt. Hitting the list menu will allow you to choose keyboard layout or UAC bypass options. </string>
@@ -1271,20 +1271,20 @@
     <string name="inject_characteristics">Inject Characteristics</string>
     <string name="inject_settings">Inject Settings</string>
     <string name="installing_notice">Installing Chroot…</string>
-    <string name="installkalichrootbutton">Install Kali Chroot</string>
+    <string name="installkalichrootbutton">Restore/Install Chroot</string>
     <string name="interface_select">Pick an interface:</string>
     <string name="kali_dumpmifare">Dump Mifare</string>
-    <string name="kali_services_description">Kali Chroot services can be started and stopped via the switch toggle buttons, you can also ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your own service item, and long click on the item label to EDIT the item as well.</string>
-    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE KaliChroot that looks like this:\n\nbusybox ps -o pid,comm | grep \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_runServiceOnBoot">To automacticailly start the service after Kali Chroot is up, check this option.</string>
-    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
+    <string name="kali_services_description">Chroot services can be started and stopped via the switch toggle buttons, you can also ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your own service item, and long click on the item label to EDIT the item as well.</string>
+    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE Chroot that looks like this:\n\nbusybox ps -o pid,comm | grep \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_runServiceOnBoot">To automacticailly start the service after Chroot is up, check this option.</string>
+    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE Chroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE Chroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
     <string name="karma_loud">karma loud</string>
     <string name="kex_description">Welcome to the Kali NetHunter Desktop Experience.\nYou can start multiple sessions as different users, add, save, and restore your own custom resolutions, start KeX at boot, and even output KeX to HDMI.</string>
     <string name="launch_kali_menu">Launch Kali Menu in Terminal</string>
     <string name="launch_kali_shell">Launch Kali Shell in Terminal</string>
     <string name="launch_wifite">Launch Wifite</string>
-    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
+    <string name="legacychrootmessage">You appear to already have an existing chroot from an older version of Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
     <string name="legacychrootnegbutton">Ignore current</string>
     <string name="legacychrootposbutton">Migrate (reboot)</string>
     <string name="legacychroottitle">Legacy chroot found!</string>
@@ -1412,7 +1412,7 @@
     <string name="nmap_topports">Top 20 Ports</string>
     <string name="nmap_udpscan">UDP Scan</string>
     <string name="nogoingback">There\'s no going back.  You lose everything in your chroot.  Forever-ever.\n\nNOTE:  To fully ensure the chroot is not mounted and no processes are using it, <b><u>THE DEVICE WILL NOW BE REBOOTED</u></b>, then the chroot will be deleted.</string>
-    <string name="nokalichrootfound">No Kali chroot directory was found.</string>
+    <string name="nokalichrootfound">No chroot directory was found.</string>
     <string name="objects_to_inject">Objects to Inject</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -1473,16 +1473,16 @@
     <string name="stop_badusb">Stop BadUSB attack</string>
     <string name="stop_mana">Stop mana</string>
     <string name="stop_mitmf">Stop MITMf attack</string>
-    <string name="thechroottitle">The Kali chroot</string>
+    <string name="thechroottitle">The chroot</string>
     <string name="toastForNoBusybox">Uh oh!  Nethunter can\'t find busybox!</string>
     <string name="toast_error_permissions">Nethunter App does not have permission to send to Nethunter terminal!</string>
     <string name="toast_input_error_launcher">Invalid arguments given!</string>
     <string name="toast_install_terminal">Error launching intent. Install Android Terminal!</string>
-    <string name="toastchrootmountedwarning">Kali chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
-    <string name="toastdeletedchroot">Kali chroot has been deleted.</string>
-    <string name="toastdeletingchroot">Deleting Kali chroot…</string>
-    <string name="toastmigratedchroot">Kali chroot has been migrated.</string>
-    <string name="toastmigratingchroot">Migrating Kali chroot…</string>
+    <string name="toastchrootmountedwarning">chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
+    <string name="toastdeletedchroot">chroot has been deleted.</string>
+    <string name="toastdeletingchroot">Deleting chroot…</string>
+    <string name="toastmigratedchroot">chroot has been migrated.</string>
+    <string name="toastmigratingchroot">Migrating chroot…</string>
     <string name="turn_off_external_wifi">Turn Off External Wifi</string>
     <string name="type_wlan_interface">Type wlan interface</string>
     <string name="unknown">Unknown</string>
@@ -1490,7 +1490,7 @@
     <string name="unzippinganduntarring">Unzipping and untarring....</string>
     <string name="unzippinguntarringdone">Unzipping &amp; untarring done.</string>
     <string name="update">Update</string>
-    <string name="update_kali_chroot">Update Kali chroot</string>
+    <string name="update_kali_chroot">Update chroot</string>
     <string name="usbarmory_current_usb_state">Current USB state: </string>
     <string name="usbarmory_description">The USB Arsenal is awesome</string>
     <string name="usbarmory_enabledfunctions">USB functions currently enabled:</string>

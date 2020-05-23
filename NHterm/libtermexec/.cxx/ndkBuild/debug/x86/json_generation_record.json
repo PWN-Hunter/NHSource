@@ -2,19 +2,19 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 28 min SDK version: x86",
-    "file": "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/.cxx/ndkBuild/debug/x86/android_gradle_build.json\u0027 was up-to-date",
-    "file": "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk",
+    "message": "JSON \u0027/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
     "tag": "debug|x86"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "/home/hilledkinged/Documents/kali-nethunter-term-master/libtermexec/src/main/jni/Android.mk",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
     "tag": "debug|x86"
   }
 ]

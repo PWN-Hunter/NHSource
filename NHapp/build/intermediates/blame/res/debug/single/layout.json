@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_spoof.xml",
-        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_spoof.xml"
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_inject.xml",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_inject.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_inject.xml",
-        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_inject.xml"
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_spoof.xml",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_spoof.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_general.xml",
-        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_general.xml"
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_general.xml",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_general.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_responder.xml",
-        "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/res/layout/mitmf_responder.xml"
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_responder.xml",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_responder.xml"
     }
 ]

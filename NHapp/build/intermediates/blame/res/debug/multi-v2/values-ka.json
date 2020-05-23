@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/home/hilledkinged/.gradle/caches/transforms-2/files-2.1/ef8a364a6a39421e69c96cf68eeb3e63/appcompat-1.1.0/res/values-ka/values-ka.xml",

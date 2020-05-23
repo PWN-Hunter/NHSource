@@ -1,14 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHterm/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/hilledkinged/.gradle/caches/transforms-2/files-2.1/cbd3c7455b3aa54cd0b987220ece041f/support-media-compat-28.0.0/res/values-v21/values-v21.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
                     },
                     "to": {
                         "startLines": "11,14,18,22",
@@ -20,27 +23,13 @@
                     }
                 },
                 {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-v21/styles.xml",
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-v21/colors.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "1648",
-                        "endLines": "35",
-                        "endColumns": "12",
-                        "endOffsets": "2077"
-                    }
-                },
-                {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-v21/colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "3,1,2",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "99,14,54",
+                        "endColumns": "40,39,44",
+                        "endOffsets": "137,51,96"
                     },
                     "to": {
                         "startLines": "2,4,5",
@@ -51,19 +40,41 @@
                     }
                 },
                 {
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "195",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "828"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "1648",
+                        "endLines": "35",
+                        "endColumns": "12",
+                        "endOffsets": "2281"
+                    }
+                },
+                {
                     "source": "/home/hilledkinged/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/res/values-v21/values-v21.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
                         "startLines": "3,6,7,8,9,10,17,21,36,39",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "98,291,355,422,486,602,1059,1353,2082,2254",
+                        "startOffsets": "98,291,355,422,486,602,1059,1353,2286,2458",
                         "endLines": "3,6,7,8,9,10,17,21,38,43",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "197,350,417,481,597,723,1180,1476,2249,2587"
+                        "endOffsets": "197,350,417,481,597,723,1180,1476,2453,2791"
                     }
                 }
             ]

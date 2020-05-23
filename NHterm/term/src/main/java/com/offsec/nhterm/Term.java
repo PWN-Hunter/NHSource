@@ -896,7 +896,7 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
                                 if(CheckRoot.isDeviceRooted()){
                                     Log.d("isDeviceRooted","Device is rooted!");
 
-                                String chroot_dir = "/data/local/nhsystem/kali-armhf"; // Not sure if I can wildcard this
+                                String chroot_dir = "/data/local/nhsystem/kali-arm64"; // Not sure if I can wildcard this
 
                                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
                                         if (!dir_exists(chroot_dir)){
@@ -995,7 +995,7 @@ public class Term extends Activity implements UpdateCallback, SharedPreferences.
 
         if (Objects.equals(text, "/data/data/com.offsec.nethunter/files/scripts/bootkali")){
             msg = "Please run Nethunter Application to generate!";
-        } else if (Objects.equals(text, "/data/local/nhsystem/kali-armhf")){
+        } else if (Objects.equals(text, "/data/local/nhsystem/kali-arm64")){
             msg = "Missing chroot.  You need to install from Chroot Manager";
         }
         /// Do something for not found text (alertDialog)

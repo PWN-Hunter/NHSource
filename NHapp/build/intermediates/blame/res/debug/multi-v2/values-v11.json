@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/androidwversionmanager/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
+                    "source": "/home/hilledkinged/Documents/NHapp/NHapp/androidwversionmanager/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

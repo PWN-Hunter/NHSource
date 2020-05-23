@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHterm/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-zh-rCN/arrays.xml",
-                    "from": {
-                        "startLines": "120,23,84,70,92,35,40,103,46,114,29,18,132",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3461,809,2430,2060,2663,1155,1286,2953,1437,3238,1005,679,3854",
-                        "endLines": "129,27,90,82,101,38,44,112,68,117,33,21,141",
-                        "endColumns": "19,19,19,19,19,19,19,19,19,19,19,19,19",
-                        "endOffsets": "3748,999,2657,2424,2947,1280,1431,3232,2054,3350,1149,803,4136"
-                    },
-                    "to": {
-                        "startLines": "2,12,17,24,37,47,51,56,66,89,93,98,102",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,347,542,774,1143,1432,1562,1712,1996,2618,2735,2884,3013",
-                        "endLines": "11,16,23,36,46,50,55,65,88,92,97,101,111",
-                        "endColumns": "19,19,19,19,19,19,19,19,19,19,19,19,19",
-                        "endOffsets": "342,537,769,1138,1427,1557,1707,1991,2613,2730,2879,3008,3295"
-                    }
-                },
-                {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-zh-rCN/strings.xml",
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-zh-rCN/strings.xml",
                     "from": {
                         "startLines": "150,152,151,17,20,137,133,132,135,134,131,38,58,89,83,93,70,66,97,79,101,110,62,106,54,114,32,34,36,147,148,146,31,33,85,19,23,39,141,143,139,142,144,140,18,22,47,24,29,50,37,40,25,41,45,103,26,57,126,88,117,82,92,69,65,123,96,78,129,100,109,155,61,105,53,113,75,120,72,56,125,87,116,81,91,68,64,122,95,77,128,99,108,154,60,104,52,112,74,119,27,21,43",
                         "startColumns": "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3",
@@ -54,6 +35,25 @@
                         "startOffsets": "7134",
                         "endColumns": "100",
                         "endOffsets": "7230"
+                    }
+                },
+                {
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-zh-rCN/arrays.xml",
+                    "from": {
+                        "startLines": "120,23,84,70,92,35,40,103,46,114,29,18,132",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3461,809,2430,2060,2663,1155,1286,2953,1437,3238,1005,679,3854",
+                        "endLines": "129,27,90,82,101,38,44,112,68,117,33,21,141",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,19,19,19,19",
+                        "endOffsets": "3748,999,2657,2424,2947,1280,1431,3232,2054,3350,1149,803,4136"
+                    },
+                    "to": {
+                        "startLines": "2,12,17,24,37,47,51,56,66,89,93,98,102",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,347,542,774,1143,1432,1562,1712,1996,2618,2735,2884,3013",
+                        "endLines": "11,16,23,36,46,50,55,65,88,92,97,101,111",
+                        "endColumns": "19,19,19,19,19,19,19,19,19,19,19,19,19",
+                        "endOffsets": "342,537,769,1138,1427,1557,1707,1991,2613,2730,2879,3008,3295"
                     }
                 }
             ]

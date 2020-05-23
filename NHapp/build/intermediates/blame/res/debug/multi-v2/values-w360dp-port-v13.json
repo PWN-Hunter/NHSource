@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-app-2020.2/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/home/hilledkinged/.gradle/caches/transforms-2/files-2.1/56acd3bfa53da480c8277c93ac083703/material-1.2.0-alpha05/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

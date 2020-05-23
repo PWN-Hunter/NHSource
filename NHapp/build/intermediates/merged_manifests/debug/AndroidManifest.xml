@@ -44,7 +44,6 @@
         android:requestLegacyExternalStorage="true"
         android:resizeableActivity="true"
         android:supportsPictureInPicture="false"
-        android:testOnly="true"
         android:theme="@style/Theme.Nethunter"
         android:windowSoftInputMode="adjustResize" >
         <activity

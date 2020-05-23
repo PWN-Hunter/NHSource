@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "/home/hilledkinged/Documents/NHapp/NHterm/term/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-iw/arrays.xml",
-                    "from": {
-                        "startLines": "106,21,75,62,82,30,34,92,39,102,25,17,116",
-                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2",
-                        "startOffsets": "3435,808,2451,2016,2721,1141,1271,3019,1417,3312,999,675,3695",
-                        "endLines": "115,24,81,74,91,33,38,101,61,105,29,20,125",
-                        "endColumns": "17,17,17,17,17,17,17,17,17,17,17,17,17",
-                        "endOffsets": "3692,996,2718,2448,3016,1268,1414,3309,2013,3432,1138,805,3947"
-                    },
-                    "to": {
-                        "startLines": "2,12,16,23,36,46,50,55,65,88,92,97,101",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,317,510,782,1219,1519,1651,1799,2094,2695,2820,2964,3099",
-                        "endLines": "11,15,22,35,45,49,54,64,87,91,96,100,110",
-                        "endColumns": "17,17,17,17,17,17,17,17,17,17,17,17,17",
-                        "endOffsets": "312,505,777,1214,1514,1646,1794,2089,2690,2815,2959,3094,3351"
-                    }
-                },
-                {
-                    "source": "/home/hilledkinged/Documents/kali-nethunter-term-master/term/src/main/res/values-iw/strings.xml",
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-iw/strings.xml",
                     "from": {
                         "startLines": "110,112,111,17,20,103,101,102,100,35,48,70,66,73,57,54,76,63,79,86,51,83,45,89,30,32,33,108,109,107,29,31,67,19,23,36,105,106,104,18,22,41,24,28,42,34,37,25,38,40,80,26,47,97,69,91,65,72,56,53,95,75,62,99,78,85,50,82,44,88,60,93,58,46,96,68,90,64,71,55,52,94,74,61,98,77,84,113,49,81,43,87,114,59,92,27,115,21,39",
                         "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
@@ -54,6 +35,25 @@
                         "startOffsets": "6720",
                         "endColumns": "100",
                         "endOffsets": "6816"
+                    }
+                },
+                {
+                    "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/values-iw/arrays.xml",
+                    "from": {
+                        "startLines": "106,21,75,62,82,30,34,92,39,102,25,17,116",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "3435,808,2451,2016,2721,1141,1271,3019,1417,3312,999,675,3695",
+                        "endLines": "115,24,81,74,91,33,38,101,61,105,29,20,125",
+                        "endColumns": "17,17,17,17,17,17,17,17,17,17,17,17,17",
+                        "endOffsets": "3692,996,2718,2448,3016,1268,1414,3309,2013,3432,1138,805,3947"
+                    },
+                    "to": {
+                        "startLines": "2,12,16,23,36,46,50,55,65,88,92,97,101",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,317,510,782,1219,1519,1651,1799,2094,2695,2820,2964,3099",
+                        "endLines": "11,15,22,35,45,49,54,64,87,91,96,100,110",
+                        "endColumns": "17,17,17,17,17,17,17,17,17,17,17,17,17",
+                        "endOffsets": "312,505,777,1214,1514,1646,1794,2089,2690,2815,2959,3094,3351"
                     }
                 }
             ]

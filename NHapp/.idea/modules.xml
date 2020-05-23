@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" filepath="$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" group="kali-nethunter-app-2020.2/androidwversionmanager" />
-      <module fileurl="file://$PROJECT_DIR$/kali-nethunter-app-2020.2.iml" filepath="$PROJECT_DIR$/kali-nethunter-app-2020.2.iml" group="kali-nethunter-app-2020.2" />
+      <module fileurl="file://$PROJECT_DIR$/NHapp.iml" filepath="$PROJECT_DIR$/NHapp.iml" group="NHapp" />
+      <module fileurl="file://$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" filepath="$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" group="NHapp/androidwversionmanager" />
     </modules>
   </component>
 </project>

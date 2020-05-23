@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" group="kali-nethunter-term-master/emulatorview" />
-      <module fileurl="file://$PROJECT_DIR$/kali-nethunter-term-master.iml" filepath="$PROJECT_DIR$/kali-nethunter-term-master.iml" group="kali-nethunter-term-master" />
-      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" group="kali-nethunter-term-master/libtermexec" />
-      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" group="kali-nethunter-term-master/term" />
+      <module fileurl="file://$PROJECT_DIR$/NHterm.iml" filepath="$PROJECT_DIR$/NHterm.iml" group="NHterm" />
+      <module fileurl="file://$PROJECT_DIR$/emulatorview/emulatorview.iml" filepath="$PROJECT_DIR$/emulatorview/emulatorview.iml" group="NHterm/emulatorview" />
+      <module fileurl="file://$PROJECT_DIR$/libtermexec/libtermexec.iml" filepath="$PROJECT_DIR$/libtermexec/libtermexec.iml" group="NHterm/libtermexec" />
+      <module fileurl="file://$PROJECT_DIR$/term/term.iml" filepath="$PROJECT_DIR$/term/term.iml" group="NHterm/term" />
     </modules>
   </component>
 </project>
