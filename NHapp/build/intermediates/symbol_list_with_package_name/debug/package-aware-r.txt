@@ -2204,16 +2204,6 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
-id mpc_GenerateHTTP
-id mpc_GenerateSDCARD
-id mpc_callback_spinner
-id mpc_callbacktype_spinner
-id mpc_ip_address
-id mpc_item
-id mpc_payload_spinner
-id mpc_port
-id mpc_stage_spinner
-id mpc_type_spinner
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
 id mtrl_calendar_frame
@@ -2666,8 +2656,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout payload_maker
-layout payload_maker_item
 layout pineapple
 layout resolutiondialog
 layout searchsploit
@@ -2857,6 +2845,7 @@ string legacychrootmessage
 string legacychrootnegbutton
 string legacychrootposbutton
 string legacychroottitle
+string lhost
 string licenseInfo
 string load
 string loading_file
@@ -2913,6 +2902,8 @@ string mitmf_spoof_targets
 string mitmf_sslstripplus
 string mitmf_upsidedown
 string mpc_description
+string mpc_format
+string mpc_format_default
 string mpc_generateHTTP
 string mpc_generateSDCARD
 string mpc_ip_address

@@ -95,196 +95,197 @@
 45-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:36:9-42
 46        android:supportsPictureInPicture="false"
 46-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:37:9-49
-47        android:theme="@style/Theme.Nethunter"
-47-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:38:9-47
-48        android:windowSoftInputMode="adjustResize" >
-48-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:39:9-51
-49        <activity
-49-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:42:9-62:20
-50            android:name="com.offsec.nethunter.AppNavHomeActivity"
-50-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:43:13-47
-51            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
-51-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:44:13-83
-52            android:label="@string/app_name"
-52-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:45:13-45
-53            android:launchMode="singleTop"
-53-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:46:13-43
-54            android:theme="@style/Theme.Nethunter" >
-54-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:47:13-51
-55            <intent-filter android:label="@string/app_nav_home_label" >
-55-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:13-51:29
-55-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:28-70
-56                <action android:name="android.intent.action.MAIN" />
-56-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:17-69
-56-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:17-77
-58-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:27-74
-59            </intent-filter>
-60            <intent-filter>
-60-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:52:13-54:29
-61                <category android:name="android.intent.category.DEFAULT" />
-61-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:17-76
-61-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:27-73
-62            </intent-filter>
-63            <!-- for Nougat -->
-64            <layout
-64-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:56:13-61:44
-65                android:defaultHeight="500dp"
-65-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:57:17-46
-66                android:defaultWidth="600dp"
-66-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:58:17-45
-67                android:gravity="top|end"
-67-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:59:17-42
-68                android:minHeight="320dp"
-68-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:60:17-42
-69                android:minWidth="480dp" />
-69-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:61:17-41
-70        </activity>
-71        <activity
-71-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:64:9-72:20
-72            android:name="com.offsec.nethunter.EditSourceActivity"
-72-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:65:13-47
-73            android:label="Edit Source"
-73-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:66:13-40
-74            android:theme="@style/Theme.Nethunter"
-74-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:67:13-51
-75            android:windowSoftInputMode="stateHidden" >
-75-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:68:13-54
-76            <meta-data
-76-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-71:55
-77                android:name="android.support.PARENT_ACTIVITY"
-77-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:17-63
-78                android:value=".EditSourceActivity" />
-78-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:17-52
-79        </activity>
-80        <activity
-80-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:73:9-81:20
-81            android:name="com.offsec.nethunter.DeAuthWhitelistActivity"
-81-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:74:13-52
-82            android:label="Edit whitelist"
-82-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:75:13-43
-83            android:theme="@style/Theme.Nethunter"
-83-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:76:13-51
-84            android:windowSoftInputMode="stateHidden" >
-84-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:77:13-54
-85            <meta-data
-85-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-71:55
-86                android:name="android.support.PARENT_ACTIVITY"
-86-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:17-63
-87                android:value=".DeAuthWhitelistActivity" />
-87-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:17-52
-88        </activity>
-89
-90        <receiver
-90-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:83:9-95:20
-91            android:name="com.offsec.nethunter.receiver.BootCompletedReceiver"
-91-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:83:19-65
-92            android:enabled="true"
-92-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:84:13-35
-93            android:exported="true" >
-93-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:85:13-36
-94            <intent-filter>
-94-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:86:13-94:29
-95                <category android:name="android.intent.category.DEFAULT" />
-95-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:17-76
-95-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:27-73
-96
-97                <action android:name="android.intent.action.BOOT_COMPLETED" />
-97-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:88:17-79
-97-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:88:25-76
-98                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED" />
-98-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:17-86
-98-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:25-83
-99                <action android:name="android.intent.action.REBOOT" />
-99-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:17-71
-99-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:25-68
-100                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-100-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:17-82
-100-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:25-79
-101                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-101-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:17-82
-101-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:25-79
-102                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
-102-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:17-80
-102-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:25-77
-103            </intent-filter>
-104        </receiver>
-105
-106        <service
-106-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:97:9-100:39
-107            android:name="com.offsec.nethunter.service.CompatCheckService"
-107-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:98:13-55
-108            android:enabled="true"
-108-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:99:13-35
-109            android:exported="false" />
-109-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:100:13-37
-110        <service
-110-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:101:9-104:39
-111            android:name="com.offsec.nethunter.service.NotificationChannelService"
-111-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:102:13-63
-112            android:enabled="true"
-112-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:103:13-35
-113            android:exported="false" />
-113-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:104:13-37
-114        <service
-114-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:105:9-109:71
-115            android:name="com.offsec.nethunter.service.RunAtBootService"
-115-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:106:13-53
-116            android:enabled="true"
-116-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:107:13-35
-117            android:exported="false"
-117-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:108:13-37
-118            android:permission="android.permission.BIND_JOB_SERVICE" />
-118-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:109:13-69
-119        <!--
-120        service
-121            android:name=".service.DummyAccessibilityService"
-122            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
-123            <intent-filter>
-124                <action android:name="android.accessibilityservice.AccessibilityService" />
-125            </intent-filter>
-126            <meta-data
-127                android:name="android.accessibilityservice"
-128                android:resource="@xml/dummy_accessibility_service"/>
-129        </service
-130        -->
-131        <service
-131-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:120:9-123:40
-132            android:name="com.offsec.nethunter.gps.LocationUpdateService"
-132-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:121:13-54
-133            android:enabled="true"
-133-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:122:13-35
-134            android:exported="false" />
-134-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:123:13-37
-135
-136        <activity
-136-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-137-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-138            android:exported="false"
-138-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-139-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-140
-141        <meta-data
-141-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-142            android:name="com.google.android.gms.version"
-142-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-143            android:value="@integer/google_play_services_version" />
-143-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-144
-145        <provider
-145-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-146            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-146-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-147            android:authorities="com.offsec.nethunter.lifecycle-process"
-147-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-148            android:exported="false"
-148-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-149            android:multiprocess="true" />
-149-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-150    </application>
-151
-152</manifest>
+47        android:testOnly="true"
+48        android:theme="@style/Theme.Nethunter"
+48-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:38:9-47
+49        android:windowSoftInputMode="adjustResize" >
+49-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:39:9-51
+50        <activity
+50-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:42:9-62:20
+51            android:name="com.offsec.nethunter.AppNavHomeActivity"
+51-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:43:13-47
+52            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+52-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:44:13-83
+53            android:label="@string/app_name"
+53-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:45:13-45
+54            android:launchMode="singleTop"
+54-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:46:13-43
+55            android:theme="@style/Theme.Nethunter" >
+55-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:47:13-51
+56            <intent-filter android:label="@string/app_nav_home_label" >
+56-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:13-51:29
+56-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:28-70
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:17-69
+57-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:17-77
+59-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:27-74
+60            </intent-filter>
+61            <intent-filter>
+61-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:52:13-54:29
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:17-76
+62-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:27-73
+63            </intent-filter>
+64            <!-- for Nougat -->
+65            <layout
+65-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:56:13-61:44
+66                android:defaultHeight="500dp"
+66-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:57:17-46
+67                android:defaultWidth="600dp"
+67-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:58:17-45
+68                android:gravity="top|end"
+68-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:59:17-42
+69                android:minHeight="320dp"
+69-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:60:17-42
+70                android:minWidth="480dp" />
+70-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:61:17-41
+71        </activity>
+72        <activity
+72-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:64:9-72:20
+73            android:name="com.offsec.nethunter.EditSourceActivity"
+73-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:65:13-47
+74            android:label="Edit Source"
+74-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:66:13-40
+75            android:theme="@style/Theme.Nethunter"
+75-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:67:13-51
+76            android:windowSoftInputMode="stateHidden" >
+76-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:68:13-54
+77            <meta-data
+77-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-71:55
+78                android:name="android.support.PARENT_ACTIVITY"
+78-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:17-63
+79                android:value=".EditSourceActivity" />
+79-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:17-52
+80        </activity>
+81        <activity
+81-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:73:9-81:20
+82            android:name="com.offsec.nethunter.DeAuthWhitelistActivity"
+82-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:74:13-52
+83            android:label="Edit whitelist"
+83-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:75:13-43
+84            android:theme="@style/Theme.Nethunter"
+84-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:76:13-51
+85            android:windowSoftInputMode="stateHidden" >
+85-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:77:13-54
+86            <meta-data
+86-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-71:55
+87                android:name="android.support.PARENT_ACTIVITY"
+87-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:17-63
+88                android:value=".DeAuthWhitelistActivity" />
+88-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:17-52
+89        </activity>
+90
+91        <receiver
+91-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:83:9-95:20
+92            android:name="com.offsec.nethunter.receiver.BootCompletedReceiver"
+92-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:83:19-65
+93            android:enabled="true"
+93-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:84:13-35
+94            android:exported="true" >
+94-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:85:13-36
+95            <intent-filter>
+95-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:86:13-94:29
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:17-76
+96-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:27-73
+97
+98                <action android:name="android.intent.action.BOOT_COMPLETED" />
+98-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:88:17-79
+98-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:88:25-76
+99                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED" />
+99-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:17-86
+99-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:25-83
+100                <action android:name="android.intent.action.REBOOT" />
+100-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:17-71
+100-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:25-68
+101                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+101-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:17-82
+101-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:25-79
+102                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+102-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:17-82
+102-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:25-79
+103                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+103-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:17-80
+103-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:25-77
+104            </intent-filter>
+105        </receiver>
+106
+107        <service
+107-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:97:9-100:39
+108            android:name="com.offsec.nethunter.service.CompatCheckService"
+108-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:98:13-55
+109            android:enabled="true"
+109-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:99:13-35
+110            android:exported="false" />
+110-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:100:13-37
+111        <service
+111-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:101:9-104:39
+112            android:name="com.offsec.nethunter.service.NotificationChannelService"
+112-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:102:13-63
+113            android:enabled="true"
+113-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:103:13-35
+114            android:exported="false" />
+114-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:104:13-37
+115        <service
+115-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:105:9-109:71
+116            android:name="com.offsec.nethunter.service.RunAtBootService"
+116-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:106:13-53
+117            android:enabled="true"
+117-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:107:13-35
+118            android:exported="false"
+118-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:108:13-37
+119            android:permission="android.permission.BIND_JOB_SERVICE" />
+119-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:109:13-69
+120        <!--
+121        service
+122            android:name=".service.DummyAccessibilityService"
+123            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+124            <intent-filter>
+125                <action android:name="android.accessibilityservice.AccessibilityService" />
+126            </intent-filter>
+127            <meta-data
+128                android:name="android.accessibilityservice"
+129                android:resource="@xml/dummy_accessibility_service"/>
+130        </service
+131        -->
+132        <service
+132-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:120:9-123:40
+133            android:name="com.offsec.nethunter.gps.LocationUpdateService"
+133-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:121:13-54
+134            android:enabled="true"
+134-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:122:13-35
+135            android:exported="false" />
+135-->/home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:123:13-37
+136
+137        <activity
+137-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+138            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+138-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-base:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:17.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+145
+146        <provider
+146-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+147            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+147-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+148            android:authorities="com.offsec.nethunter.lifecycle-process"
+148-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+149            android:exported="false"
+149-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+150            android:multiprocess="true" />
+150-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/a7777210eeae7ec0839470505116d148/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+151    </application>
+152
+153</manifest>

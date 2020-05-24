@@ -452,9 +452,6 @@ public class AppNavHomeActivity extends AppCompatActivity implements KaliGPSUpda
                         case R.id.createchroot_item:
                             changeFragment(fragmentManager, ChrootManagerFragment.newInstance(itemId));
                             break;
-                        case R.id.mpc_item:
-                            changeFragment(fragmentManager, MPCFragment.newInstance(itemId));
-                            break;
                         case R.id.mitmf_item:
                             changeFragment(fragmentManager, MITMfFragment.newInstance(itemId));
                             break;

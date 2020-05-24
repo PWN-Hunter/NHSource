@@ -56,12 +56,12 @@
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/nethunter_recyclerview_main.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_recyclerview_dialog_delete.xml.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_recyclerview_dialog_delete.xml"
-    },
-    {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_custom_dialog_view.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_custom_dialog_view.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_recyclerview_dialog_delete.xml.flat",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_recyclerview_dialog_delete.xml"
     },
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/drawable-hdpi_ic_usb.png.flat",
@@ -70,10 +70,6 @@
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/menu_kaliservices.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/menu/kaliservices.xml"
-    },
-    {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_payload_maker_item.xml.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/payload_maker_item.xml"
     },
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_nmap.xml.flat",
@@ -334,10 +330,6 @@
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_custon_commands_dialog.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/custon_commands_dialog.xml"
-    },
-    {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_payload_maker.xml.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/payload_maker.xml"
     },
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",

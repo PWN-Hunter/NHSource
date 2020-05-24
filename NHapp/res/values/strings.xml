@@ -353,41 +353,33 @@
     <string name="mpc_description">MSFvenom Payload Creator (MSFPC) is a wrapper written by g0tmi1k to generate multiple types of payloads, based on users choice. The idea is to be as simple as possible (only requiring one input) to produce their payload.</string>
     <string name="mpc_type">Type:</string>
     <string-array name="mpc_type_array">
-        <item>ASP</item>
-        <item>ASPX</item>
-        <item>Bash [.sh]</item>
-        <item>Java [.jsp]</item>
-        <item>Linux [.elf]</item>
-        <item>OSX [.macho]</item>
-        <item>Perl [.pl]</item>
-        <item>PHP</item>
-        <item>Powershell [.ps1]</item>
-        <item>Python [.py]</item>
-        <item>Tomcat [.war]</item>
-        <item>Windows [.exe/.dll]</item>
-        <item>Android [.apk]</item>
+        <item>-f exe</item>
+        <item>-f apk</item>
     </string-array>
+    <string name="mpc_format_default">-f exe</string>
+    <string name="mpc_format">Format:</string>
+    <string name="lhost">lhost</string>
     <string name="mpc_port">Port:</string>
-    <string name="mpc_port_default">443</string>
+    <string name="mpc_port_default">LPORT=443</string>
     <string name="mpc_ip_address">IP Address:</string>
     <string name="mpc_payload">Payload Options:</string>
     <string-array name="mpc_payload_array">
-        <item>MSF</item>
-        <item>CMD</item>
+        <item></item>
+        <item></item>
     </string-array>
     <string-array name="mpc_callback_array">
-        <item>Reverse</item>
-        <item>Bind</item>
+        <item></item>
+        <item></item>
     </string-array>
     <string-array name="mpc_stage_array">
-        <item>Staged</item>
-        <item>Stageless</item>
+        <item>arm</item>
+        <item>arm64</item>
     </string-array>
     <string-array name="mpc_callbacktype_array">
-        <item>TCP</item>
-        <item>HTTP</item>
-        <item>HTTPS</item>
-        <item>Find Port</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
     <string name="mpc_generateSDCARD">Generate to SDCARD</string>
     <string name="mpc_generateHTTP">Generate to HTTP</string>
