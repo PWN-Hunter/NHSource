@@ -40,8 +40,8 @@ public class NethunterSQL extends SQLiteOpenHelper {
             {"9", "Nethunter Terminal Status", "[ \"$(pm list packages | grep 'com.offsec.nhterm')\" ] && echo \"Nethunter Terminal is installed.\" || echo \"Nethunter Terminal is NOT yet installed.\"", "\\n", "1"},
             {"10", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
             {"11", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
-            {"12", "PHunter patreon", "am start -a android.intent.action.VIEW -d https://patreon.com/pocohunter_rom > /dev/null", "\\n", "0"},
-            {"13", "Our Telegram", "am start -a android.intent.action.VIEW -d https://www.t.me/pocohunter_rom > /dev/null", "\\n", "0"},
+            {"12", "PHunter patreon", "am start -a android.intent.action.VIEW -d https://www.patreon.com/pwn_hunter_rom > /dev/null", "\\n", "0"},
+            {"13", "Our Telegram", "am start -a android.intent.action.VIEW -d https://t.me/pwn_hunter_rom > /dev/null", "\\n", "0"},
             {"14", "Our Reddit", "am start -a android.intent.action.VIEW -d https://www.reddit.com/r/Pocohunter", "\\n", "0"},
             {"15", "Our Facebook", "am start -a android.intent.action.VIEW -d https://www.facebook.com/pocohunterproject/ > /dev/null", "\\n", "0"}
     };

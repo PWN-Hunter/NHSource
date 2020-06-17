@@ -142,14 +142,14 @@ else
 	# bootkali duck-hunt-run {/opt/duckout.sh}
 
 	if [ "$1" == "duck-hunt-convert" ]; then
-		$BUSYBOX chroot $MNT sudo python /sdcard/nh_files/modules/duckhunter.py -l $2 $3 $4
+		$BUSYBOX chroot $MNT sudo python3 /sdcard/nh_files/modules/duckhunter.py -l $2 $3 $4
 		$BUSYBOX chroot $MNT sudo chmod 755 $4
 	fi
 	if [ "$1" == "duck-hunt-run" ]; then
-		if [ ! -f /data/local/nhsystem/kali-arm64$2 ]; then
+		if [ ! -f /data/local/nhsystem/kali-armhf$2 ] || [ ! -f /data/local/nhsystem/kalifs$2 ]; then
 			echo "File not found"
 		else
-			echo "File /data/local/nhsystem/kali-arm64$2 found"
+			echo "File /data/local/nhsystem/kalifs$2 found"
 			$BUSYBOX chroot $MNT /bin/bash $2
 		fi
 	fi
@@ -159,10 +159,10 @@ else
 	# bootkali file2hid-string -s "string" -l us
 
 	if [ "$1" == "file2hid-file" ]; then
-		$BUSYBOX chroot $MNT sudo python /sdcard/nh_files/modules/filetohid.py -f $2 -l us
+		$BUSYBOX chroot $MNT sudo python3 /sdcard/nh_files/modules/filetohid.py -f $2 -l us
 	fi
 	if [ "$1" == "file2hid-string" ]; then
-		$BUSYBOX chroot $MNT sudo python /sdcard/nh_files/modules/filetohid.py -s $2 -l us
+		$BUSYBOX chroot $MNT sudo python3 /sdcard/nh_files/modules/filetohid.py -s $2 -l us
 	fi
 
 	#SSH
@@ -323,7 +323,7 @@ else
 		$BUSYBOX chroot $MNT sudo /bin/bash -c "chmod 777 /dev/null"
 		ifconfig wlan1 up
 		sleep 3
-		LANG=C PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin $BUSYBOX chroot $MNT sudo /usr/bin/python /usr/bin/wifite
+		LANG=C PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin $BUSYBOX chroot $MNT sudo /usr/bin/python3 /usr/bin/wifite
 	fi
 
 	#FRUITYWIFI

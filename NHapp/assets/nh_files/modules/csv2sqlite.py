@@ -1,12 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # A simple Python script to convert csv files to sqlite (with type guessing)
 #
 # @author: Rufus Pollock
 # Placed in the Public Domain
 # Bug fixes by Simon Heimlicher <sh@nine.ch> marked by `shz:'
-
-from __future__ import print_function
 
 
 import sys
@@ -77,7 +75,7 @@ def convert(filepath_or_fileobj, dbpath, table, headerspath_or_fileobj=None, com
     # now load data
     _columns = ','.join(
         ['"%s" %s' % (header, _type) for (header,_type) in zip(headers, types)]
-        )
+    )
 
     reader = csv.reader(fo, dialect)
     if not header_given: # Skip the header
@@ -95,7 +93,7 @@ def convert(filepath_or_fileobj, dbpath, table, headerspath_or_fileobj=None, com
         pass
 
     _insert_tmpl = 'INSERT INTO %s VALUES (%s)' % (table,
-        ','.join(['?']*len(headers)))
+                                                   ','.join(['?']*len(headers)))
 
     line = 0
     for row in reader:
@@ -122,7 +120,6 @@ def convert(filepath_or_fileobj, dbpath, table, headerspath_or_fileobj=None, com
 
 def _guess_types(reader, number_of_columns, max_sample_size=100):
     '''Guess column types (as for SQLite) of CSV.
-
     :param fileobj: read-only file object for a CSV file.
     '''
     # we default to text for each field
@@ -134,13 +131,13 @@ def _guess_types(reader, number_of_columns, max_sample_size=100):
         ('real', float),
         ('integer', int)
         # 'date',
-        ]
+    ]
     # for each column a set of bins for each type counting successful casts
     perresult = {
         'integer': 0,
         'real': 0,
         'text': 0
-        }
+    }
 
     results = [ dict(perresult) for x in range(number_of_columns) ]
     sample_counts = [ 0 for x in range(number_of_columns) ]
@@ -153,9 +150,9 @@ def _guess_types(reader, number_of_columns, max_sample_size=100):
 
             # replace ',' with '' to improve cast accuracy for ints and floats
             if(cell.count(',') > 0):
-               cell = cell.replace(',', '')
-               if(cell.count('E') == 0):
-                  cell = cell + "E0"
+                cell = cell.replace(',', '')
+                if(cell.count('E') == 0):
+                    cell = cell + "E0"
 
             for data_type,cast in options:
                 try:

@@ -1,1 +1,20 @@
-[{"outputType":{"type":"APK"},"apkData":{"type":"MAIN","splits":[],"versionCode":1001,"versionName":"1.1","enabled":true,"outputFile":"NHapp-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"NHapp-debug.apk","properties":{}}]
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.offsec.nethunter",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1003,
+      "versionName": "1003",
+      "enabled": true,
+      "outputFile": "NHapp-debug.apk"
+    }
+  ]
+}

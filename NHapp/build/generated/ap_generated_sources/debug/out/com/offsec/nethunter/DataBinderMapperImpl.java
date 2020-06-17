@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.offsec.nethunter.databinding.BtMainBindingImpl;
 import com.offsec.nethunter.databinding.MitmfGeneralBindingImpl;
 import com.offsec.nethunter.databinding.MitmfInjectBindingImpl;
 import com.offsec.nethunter.databinding.MitmfResponderBindingImpl;
@@ -21,17 +22,20 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_MITMFGENERAL = 1;
+  private static final int LAYOUT_BTMAIN = 1;
 
-  private static final int LAYOUT_MITMFINJECT = 2;
+  private static final int LAYOUT_MITMFGENERAL = 2;
 
-  private static final int LAYOUT_MITMFRESPONDER = 3;
+  private static final int LAYOUT_MITMFINJECT = 3;
 
-  private static final int LAYOUT_MITMFSPOOF = 4;
+  private static final int LAYOUT_MITMFRESPONDER = 4;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
+  private static final int LAYOUT_MITMFSPOOF = 5;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(5);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.offsec.nethunter.R.layout.bt_main, LAYOUT_BTMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.offsec.nethunter.R.layout.mitmf_general, LAYOUT_MITMFGENERAL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.offsec.nethunter.R.layout.mitmf_inject, LAYOUT_MITMFINJECT);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.offsec.nethunter.R.layout.mitmf_responder, LAYOUT_MITMFRESPONDER);
@@ -47,6 +51,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_BTMAIN: {
+          if ("layout/bt_main_0".equals(tag)) {
+            return new BtMainBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for bt_main is invalid. Received: " + tag);
+        }
         case  LAYOUT_MITMFGENERAL: {
           if ("layout/mitmf_general_0".equals(tag)) {
             return new MitmfGeneralBindingImpl(component, view);
@@ -136,9 +146,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(5);
 
     static {
+      sKeys.put("layout/bt_main_0", com.offsec.nethunter.R.layout.bt_main);
       sKeys.put("layout/mitmf_general_0", com.offsec.nethunter.R.layout.mitmf_general);
       sKeys.put("layout/mitmf_inject_0", com.offsec.nethunter.R.layout.mitmf_inject);
       sKeys.put("layout/mitmf_responder_0", com.offsec.nethunter.R.layout.mitmf_responder);

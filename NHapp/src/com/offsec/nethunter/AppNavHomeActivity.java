@@ -367,7 +367,6 @@ public class AppNavHomeActivity extends AppCompatActivity implements KaliGPSUpda
         String readmeData = String.format("%s\n\n%s\n\n%s",
                 getResources().getString(R.string.licenseInfo),
                 getResources().getString(R.string.nhwarning),
-                getResources().getString(R.string.patrons),
                 getResources().getString(R.string.nhteam));
         final SpannableString readmeText = new SpannableString(readmeData);
         Linkify.addLinks(readmeText, Linkify.WEB_URLS);
@@ -446,11 +445,17 @@ public class AppNavHomeActivity extends AppCompatActivity implements KaliGPSUpda
                         case R.id.mana_item:
                             changeFragment(fragmentManager, ManaFragment.newInstance(itemId));
                             break;
+                        case R.id.bt_item:
+                            changeFragment(fragmentManager, BTFragment.newInstance(itemId));
+                            break;
                         case R.id.macchanger_item:
                             changeFragment(fragmentManager, MacchangerFragment.newInstance(itemId));
                             break;
                         case R.id.createchroot_item:
                             changeFragment(fragmentManager, ChrootManagerFragment.newInstance(itemId));
+                            break;
+                        case R.id.mpc_item:
+                            changeFragment(fragmentManager, MPCFragment.newInstance(itemId));
                             break;
                         case R.id.mitmf_item:
                             changeFragment(fragmentManager, MITMfFragment.newInstance(itemId));

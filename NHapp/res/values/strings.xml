@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PocoHunter</string>
-    <string name="app_nav_home_label">PocoHunter</string>
+    <string name="app_name">PWNHunter</string>
+    <string name="app_nav_home_label">PWNHunter</string>
 
     <string name="hometitle">System Information</string>
     <!--string name="nethunter_description">Welcome to Kali Linux NetHunter by Offensive Security! This application is designed to make it easier to execute attacks and control services. The navigation menu contains links to useful commands, settings, macros, and attack configuration pages. Most configurations work out of the box but some may require some minimal tweaking.</string-->
-    <string name="nethunter_description">Thank you for choosing PHunter.</string>
+    <string name="nethunter_description">You can ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your custom command item. You can also long click on the item label to EDIT the item.</string>
     <string name="nethunter_current_interfaces">Network Interfaces</string>
     <string name="nethunter_external_ip">External IP</string>
     <string name="nethunter_hid_detect">HID Interfaces</string>
@@ -21,9 +21,9 @@
 
     <!-- KaliServices -->
     <string name="kali_services_description">Chroot services can be started and stopped via the switch toggle buttons, you can also ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your own service item, and long click on the item label to EDIT the item as well.</string>
-    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE Chroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE Chroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE Chroot that looks like this:\n\nbusybox ps -o pid,comm | grep \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE KaliChroot that looks like this:\n\nbusybox ps -o pid,comm | grep \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
     <string name="kaliservices_howto_runServiceOnBoot">To automacticailly start the service after Chroot is up, check this option.</string>
 
     <!-- CustomCommands -->
@@ -130,7 +130,7 @@
     <string name="launch_kali_menu">Launch Kali Menu in Terminal</string>
     <string name="launch_kali_shell">Launch Kali Shell in Terminal</string>
     <string name="launch_wifite">Launch Wifite</string>
-    <string name="update_kali_chroot">Update chroot</string>
+    <string name="update_kali_chroot">Update Chroot</string>
     <string name="turn_off_external_wifi">Turn Off External Wifi</string>
     <string name="kali_dumpmifare">Dump Mifare</string>
 
@@ -215,6 +215,13 @@
 
     <!-- KeX -->
     <string name="kex_description">Welcome to the Kali NetHunter Desktop Experience.\nYou can start multiple sessions as different users, add, save, and restore your own custom resolutions, start KeX at boot, and even output KeX to HDMI.</string>
+
+    <!-- BT Attacks -->
+    <string name="bt_description">Experimental version of Bluetooth Arsenal by yesimxev. Recon, spoof, listen to, or inject audio to various devices. Note that RFcomm needs to be enabled in your kernel for some of the attacks. Also, some devices might not support BT service.</string>
+    <string name="bt_carwhisperer">Carwhisperer script from the wayback. Listen to, or inject audio to various devices like speakers, headsets, watches or even cars. Note that target needs to be disconnected from original source. Live stream will have some delay. The sampling has to be 8kHz as we\'re injecting into SCO protocol.</string>
+    <string name="bt_spoof">Spoof your BT adapters.\nWill play essential role in upcoming attacks.</string>
+    <string name="bt_tools">Brute force BT device addresses, ping, and discover their services.</string>
+
     <!-- MITMf -->
     <string name="mitmf_description">Written by @byt3bl33d3r, MITMf aims to provide a one-stop-shop for Man-In-The-Middle and network attacks while updating and improving existing attacks and techniques.</string>
     <string-array name="mitmf_interface_array">
@@ -283,12 +290,12 @@
         <item>min</item>
     </array>
 
-    <string name="thechroottitle">The chroot</string>
-    <string name="installkalichrootbutton">Restore/Install Chroot</string>
+    <string name="thechroottitle">The Chroot</string>
+    <string name="installkalichrootbutton">Install Chroot</string>
     <string name="removekalichrootbutton">Remove Chroot</string>
     <string name="MaintainChrootInTerminal">Add Metapackages</string>
-    <string name="existingchrootfound">An existing chroot directory was found!</string>
-    <string name="nokalichrootfound">No chroot directory was found.</string>
+    <string name="existingchrootfound">An existing Chroot directory was found!</string>
+    <string name="nokalichrootfound">No Chroot directory was found.</string>
     <string name="reallyremovechroot">Really remove the chroot?</string>
     <string name="nogoingback">There\'s no going back.  You lose everything in your chroot.  Forever-ever.\n\nNOTE:  To fully ensure the chroot is not mounted and no processes are using it, <b><u>THE DEVICE WILL NOW BE REBOOTED</u></b>, then the chroot will be deleted.</string>
     <string name="rebootbutton">Reboot and remove chroot</string>
@@ -300,22 +307,21 @@
     <string name="startingdownload">Starting download.  Standby&#8230;</string>
     <string name="unwritablestorageerror">Nowhere to write to.  Make sure you have your external storage mounted and available.</string>
     <string name="checkingforchroot">"Checking for chroot at "</string>
-    <string name="toastchrootmountedwarning">chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
-    <string name="toastdeletingchroot">Deleting chroot&#8230;</string>
-    <string name="toastdeletedchroot">chroot has been deleted.</string>
-    <string name="toastmigratingchroot">Migrating chroot&#8230;</string>
-    <string name="toastmigratedchroot">chroot has been migrated.</string>
+    <string name="toastchrootmountedwarning">Chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
+    <string name="toastdeletingchroot">Deleting Chroot&#8230;</string>
+    <string name="toastdeletedchroot">Chroot has been deleted.</string>
+    <string name="toastmigratingchroot">Migrating Chroot&#8230;</string>
+    <string name="toastmigratedchroot">Chroot has been migrated.</string>
     <string name="unzippinguntarringdone">Unzipping &amp; untarring done.</string>
     <string name="unzippinganduntarring">Unzipping and untarring....</string>
     <string name="downloadfailscheck">Something went wrong verifying the downloaded file.  Whoops.  Try again.</string>
-    <string name="aboutchroot">This is Chroot Manager. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
+    <string name="aboutchroot">This is Chroot Manager for Kali. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
     <string name="extractinganddeploying">Extracting and Deploying</string>
     <string name="nhwarning">WARNING:\nNethunter installs and uses a standard Kali Linux distribution \"under the hood\".  To support this functionality, some <u>standard Android security features such as Security Enhanced Linux (SELinux) are disabled</u>.  Moreover, Kali\'s Linux processes may run with full root privileges and can therefore access system functionality well beyond the normal Android security model.  Consider therefore that this device, as a hybrid, may not be as secure as either standard Kali Linux OR standard Android, and you are advised not to install or use Nethunter on \"daily driver\" devices or devices which store or access sensitive/private data.</string>
     <string name="nhteam">DEVELOPERS:\ngitlab.com/groups/kalilinux/nethunter/-/group_members</string>
     <string name="unknown">Unknown</string>
     <string name="statusText">Status:</string>
     <string name="licenseInfo">LICENSE INFO:\nNethunter is licensed under the GPLv2 (gnu.org/licenses/old-licenses/gpl-2.0.en.html) and the source code is available at gitlab.com/kalilinux/nethunter.\n Some icons are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.  </string><string name="attack_launched">Attack launched!</string>
-    <string name="patrons"> Patreons of the PHunter-ROM: Vlad Carazanu, Sawsan, NoNoNo, Henrique. </string>
 
     <!-- sidebar menu item titles -->
     <string name="drawertitlenethunter">Home</string>
@@ -329,6 +335,7 @@
     <string name="drawertitleduckhunter">DuckHunter HID</string>
     <string name="drawertitlebadusb">Bad USB MITM Attack</string>
     <string name="drawertitlemana">Mana Wireless Toolkit</string>
+    <string name="drawertitlebt">Bluetooth Arsenal</string>
     <string name="drawertitlemitmf">MITM Framework</string>
     <string name="drawertitlenmap">Nmap Scan</string>
     <string name="drawertitlempc">Metasploit Payload Generator</string>
@@ -345,7 +352,7 @@
     <string name="rootdialognegbutton">Quit</string>
 
     <string name="legacychroottitle">Legacy chroot found!</string>
-    <string name="legacychrootmessage">You appear to already have an existing chroot from an older version of Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
+    <string name="legacychrootmessage">You appear to already have an existing Chroot from an older version of Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
     <string name="legacychrootposbutton">Migrate (reboot)</string>
     <string name="legacychrootnegbutton">Ignore current</string>
 
@@ -353,33 +360,41 @@
     <string name="mpc_description">MSFvenom Payload Creator (MSFPC) is a wrapper written by g0tmi1k to generate multiple types of payloads, based on users choice. The idea is to be as simple as possible (only requiring one input) to produce their payload.</string>
     <string name="mpc_type">Type:</string>
     <string-array name="mpc_type_array">
-        <item>-f exe</item>
-        <item>-f apk</item>
+        <item>ASP</item>
+        <item>ASPX</item>
+        <item>Bash [.sh]</item>
+        <item>Java [.jsp]</item>
+        <item>Linux [.elf]</item>
+        <item>OSX [.macho]</item>
+        <item>Perl [.pl]</item>
+        <item>PHP</item>
+        <item>Powershell [.ps1]</item>
+        <item>Python [.py]</item>
+        <item>Tomcat [.war]</item>
+        <item>Windows [.exe/.dll]</item>
+        <item>Android [.apk]</item>
     </string-array>
-    <string name="mpc_format_default">-f exe</string>
-    <string name="mpc_format">Format:</string>
-    <string name="lhost">lhost</string>
     <string name="mpc_port">Port:</string>
-    <string name="mpc_port_default">LPORT=443</string>
+    <string name="mpc_port_default">443</string>
     <string name="mpc_ip_address">IP Address:</string>
     <string name="mpc_payload">Payload Options:</string>
     <string-array name="mpc_payload_array">
-        <item></item>
-        <item></item>
+        <item>MSF</item>
+        <item>CMD</item>
     </string-array>
     <string-array name="mpc_callback_array">
-        <item></item>
-        <item></item>
+        <item>Reverse</item>
+        <item>Bind</item>
     </string-array>
     <string-array name="mpc_stage_array">
-        <item>arm</item>
-        <item>arm64</item>
+        <item>Staged</item>
+        <item>Stageless</item>
     </string-array>
     <string-array name="mpc_callbacktype_array">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>TCP</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>Find Port</item>
     </string-array>
     <string name="mpc_generateSDCARD">Generate to SDCARD</string>
     <string name="mpc_generateHTTP">Generate to HTTP</string>
@@ -466,7 +481,7 @@
     <!-- End PineappleFragment -->
 
     <!-- Start GPSFragment -->
-    <string name="gps_description">Converts your GPS to nmea then provides to chroot.  Perfect for wardriving with Kismet or just a generic GPS server for Kali.  Requires OTG and external wireless.</string>
+    <string name="gps_description">Converts your GPS to nmea then provides to Chroot.  Perfect for wardriving with Kismet or just a generic GPS server for Kali.  Requires OTG and external wireless.</string>
     <string name="gps_help">You may need to give Nethunter permissions to GPS. Go to Settings > Apps > Nethunter > Permissions.  When it starts press: "return" three times, Vol+up and "t", "return.</string>
     <string name="loading_wait">Loading wait…</string>
     <string name="loading_file">Loading…  FILE: %s</string>

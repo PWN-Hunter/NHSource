@@ -67,9 +67,9 @@ public class NotificationChannelService extends IntentService {
                         builder = new NotificationCompat.Builder(getApplicationContext(), CHANNEL_ID)
                                 .setAutoCancel(true)
                                 .setSmallIcon(R.drawable.ic_stat_ic_nh_notificaiton)
-                                .setStyle(new NotificationCompat.BigTextStyle().bigText("Please open nethunter app and navigate to ChrootManager to setup your Chroot."))
-                                .setContentTitle("Chroot is not up or installed")
-                                .setContentText("Please navigate to ChrootManager to setup your Chroot.")
+                                .setStyle(new NotificationCompat.BigTextStyle().bigText("Please open nethunter app and navigate to ChrootManager to setup your KaliChroot."))
+                                .setContentTitle("KaliChroot is not up or installed")
+                                .setContentText("Please navigate to ChrootManager to setup your KaliChroot.")
                                 .setPriority(NotificationCompat.PRIORITY_MAX)
                                 .setContentIntent(resultPendingIntent);
                         notificationManagerCompat.notify(NOTIFY_ID, builder.build());
@@ -80,7 +80,7 @@ public class NotificationChannelService extends IntentService {
                                 .setSmallIcon(R.drawable.ic_stat_ic_nh_notificaiton)
                                 .setTimeoutAfter(10000)
                                 .setStyle(new NotificationCompat.BigTextStyle().bigText("Happy hunting!"))
-                                .setContentTitle("Chroot is UP!")
+                                .setContentTitle("KaliChroot is UP!")
                                 .setContentText("Happy hunting!")
                                 .setPriority(NotificationCompat.PRIORITY_MAX)
                                 .setContentIntent(resultPendingIntent);
@@ -116,7 +116,7 @@ public class NotificationChannelService extends IntentService {
                                 .setSmallIcon(R.drawable.ic_stat_ic_nh_notificaiton)
                                 .setTimeoutAfter(15000)
                                 .setStyle(new NotificationCompat.BigTextStyle().bigText("Please don't kill the app as it will still keep running on the background! Otherwise you'll need to kill the tar process by yourself."))
-                                .setContentTitle("Creating Chroot backup to local storage.")
+                                .setContentTitle("Creating KaliChroot backup to local storage.")
                                 .setContentText("Please don't kill the app as it will still keep running on the background! Otherwise you'll need to kill the tar process by yourself.")
                                 .setPriority(NotificationCompat.PRIORITY_MAX)
                                 .setContentIntent(resultPendingIntent);

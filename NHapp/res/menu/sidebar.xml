@@ -52,6 +52,10 @@
              android:id="@+id/mana_item"
              android:icon="@drawable/ic_action_network_wifi"
              android:title="@string/drawertitlemana" />
+        <item
+            android:id="@+id/bt_item"
+            android:icon="@drawable/ic_action_bluetooth"
+            android:title="@string/drawertitlebt" />
          <item
              android:id="@+id/mitmf_item"
              android:icon="@drawable/ic_share_black_24dp"
@@ -60,6 +64,10 @@
              android:id="@+id/nmap_item"
              android:icon="@drawable/ic_cast_connected_black_24dp"
              android:title="@string/drawertitlenmap" />
+         <item
+             android:id="@+id/mpc_item"
+             android:icon="@drawable/ic_memory_24dp"
+             android:title="@string/drawertitlempc" />
          <item
              android:id="@+id/searchsploit_item"
              android:icon="@drawable/ic_bug_report_black_24dp"

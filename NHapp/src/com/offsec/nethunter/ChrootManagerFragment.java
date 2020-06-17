@@ -183,7 +183,7 @@ public class ChrootManagerFragment extends Fragment {
             ad.setCancelable(true);
             ad.setTitle("Setup Chroot Path");
             ad.setMessage("The Chroot Path is prefixed to \n\"/data/local/nhsystem/\"\n\n" +
-                        "Just put the basename of your Chroot Folder:");
+                        "Just put the basename of your Kali Chroot Folder:");
             ad.setView(ll);
             ad.setButton(Dialog.BUTTON_POSITIVE, "Apply", (dialogInterface, i) -> {
                 if (chrootPathEditText.getText().toString().matches("^\\.(.*$)|^\\.\\.(.*$)|^/+(.*$)|^.*/+(.*$)|^$")){
@@ -271,7 +271,7 @@ public class ChrootManagerFragment extends Fragment {
             Button restoreButton2 = new Button(activity);
             LinearLayout.LayoutParams optionButtonParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             optionButtonParams.setMargins(58,0,58,0);
-            downloadButton1.setText("DOWNLOAD LATEST CHROOT FROM OFFICIAL IMAGE");
+            downloadButton1.setText("DOWNLOAD LATEST KALI CHROOT FROM OFFICIAL IMAGE");
             downloadButton1.setLayoutParams(optionButtonParams);
             restoreButton2.setText("RESTORE FROM LOCAL STORAGE\n(.TAR.GZ /.TAR.XZ)");
             restoreButton2.setLayoutParams(optionButtonParams);
@@ -331,7 +331,7 @@ public class ChrootManagerFragment extends Fragment {
                 EditText chrootTarFileEditText = new EditText(activity);
                 LinearLayout.LayoutParams editTextParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
                 editTextParams.setMargins(58,40,58,0);
-                chrootTarHintTextView.setText("Type the full path of your Chroot tarball file:");
+                chrootTarHintTextView.setText("Type the full path of your Kali Chroot tarball file:");
                 chrootTarHintTextView.setLayoutParams(editTextParams);
                 chrootTarFileEditText.setText(sharedPreferences.getString(SharePrefTag.CHROOT_DEFAULT_BACKUP_SHAREPREF_TAG, ""));
                 chrootTarFileEditText.setLayoutParams(editTextParams);
@@ -375,7 +375,7 @@ public class ChrootManagerFragment extends Fragment {
         removeChrootButton.setOnClickListener(view -> {
             AlertDialog.Builder adb = new AlertDialog.Builder(activity)
                     .setTitle("Warning!")
-                    .setMessage("Are you sure to remove the below Chroot folder?\n" + NhPaths.CHROOT_PATH())
+                    .setMessage("Are you sure to remove the below Kali Chroot folder?\n" + NhPaths.CHROOT_PATH())
                     .setPositiveButton("I'm sure.", (dialogInterface, i) -> {
                         AlertDialog.Builder adb1 = new AlertDialog.Builder(activity)
                             .setTitle("Warning!")
@@ -626,13 +626,13 @@ public class ChrootManagerFragment extends Fragment {
     private void setMountStatsTextView(int MODE) {
         if (MODE == IS_MOUNTED) {
             mountStatsTextView.setTextColor(Color.GREEN);
-            mountStatsTextView.setText("Chroot is now running!");
+            mountStatsTextView.setText("Kali Chroot is now running!");
         } else if  (MODE == IS_UNMOUNTED) {
             mountStatsTextView.setTextColor(Color.CYAN);
-            mountStatsTextView.setText("Chroot has not yet started!");
+            mountStatsTextView.setText("Kali Chroot has not yet started!");
         } else if  (MODE == NEED_TO_INSTALL) {
             mountStatsTextView.setTextColor(Color.parseColor("#D81B60"));
-            mountStatsTextView.setText("Chroot is not yet installed!");
+            mountStatsTextView.setText("Kali Chroot is not yet installed!");
         }
     }
 

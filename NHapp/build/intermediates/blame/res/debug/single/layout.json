@@ -12,6 +12,10 @@
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_general.xml"
     },
     {
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bt_main.xml",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/bt_main.xml"
+    },
+    {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mitmf_responder.xml",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/mitmf_responder.xml"
     }
