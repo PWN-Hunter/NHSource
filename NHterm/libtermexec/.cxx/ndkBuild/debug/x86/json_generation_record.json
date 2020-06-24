@@ -7,7 +7,67 @@
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86/android_gradle_build.json\u0027 was up-to-date",
+    "message": "rebuilding JSON /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86/android_gradle_build.json due to:",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86\u0027",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86\u0027",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /home/hilledkinged/Android/Sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-28\nNDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /home/hilledkinged/Android/Sdk/ndk/21.0.6113669/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk\nNDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-28\nNDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/debug/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86/build_output.txt",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "found application make file /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk",
+    "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/.cxx/ndkBuild/debug/x86/build_command.txt",
     "file": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk",
     "tag": "debug|x86"
   },

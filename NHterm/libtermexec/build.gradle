@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath 'com.android.tools.build:gradle:4.0.0'
     }
 }
 apply plugin: 'com.android.library'
@@ -50,6 +50,7 @@ android {
             path 'src/main/jni/Android.mk'
         }
     }
+    ndkVersion '21.0.6113669'
 }
 
 // Not sure if the below is still required but it causes errors in 2019
