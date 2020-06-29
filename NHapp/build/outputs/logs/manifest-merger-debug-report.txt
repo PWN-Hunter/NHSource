@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/31073a0e57cc212739f4997e886ea889/databinding-adapters-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/1b40b10646e1bbb56fb74034648b9b9e/databinding-runtime-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.multidex:multidex:2.0.1] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/aaf0857c66ffd5a80e88cd2512bc57ab/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
@@ -57,22 +57,22 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/h
 MERGED from [androidx.print:print:1.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/6a5aacb22b562922820652a32ac05ba6/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/3e5d045fdd42de39d437ce94a2ff87c7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/092f4390277122706e821c5ccddc7546/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
-INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
 	package
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:4:5-35
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-127:12
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:1-130:12
 		INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:2:11-69
@@ -80,88 +80,100 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:8:22-71
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:7:5-76
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:7:22-73
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:10:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:8:5-76
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:8:22-73
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:11:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:9:5-80
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:9:22-77
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:12:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:10:5-81
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:10:22-78
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:13:22-78
 uses-permission#com.offsec.nhterm.permission.RUN_SCRIPT
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:11:5-79
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:11:22-76
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:14:22-76
 uses-permission#com.offsec.nhterm.permission.RUN_SCRIPT_SU
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:12:5-82
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:15:5-82
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:12:22-79
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:15:22-79
 uses-permission#com.offsec.nhterm.permission.RUN_SCRIPT_NH
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:13:5-82
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:16:5-82
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:13:22-79
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:16:22-79
 uses-permission#com.offsec.nhterm.permission.RUN_SCRIPT_NH_LOGIN
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:14:5-88
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:17:5-88
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:14:22-85
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:17:22-85
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:15:5-81
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:15:22-78
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:18:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:16:5-68
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:19:5-68
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:16:22-65
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:19:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:17:5-66
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:17:22-63
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:20:22-63
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:18:5-79
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:18:22-76
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:21:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:19:5-81
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:19:22-78
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:22:22-78
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:20:5-85
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:23:5-85
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:20:22-82
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:23:22-82
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:21:5-77
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:24:5-77
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:21:22-74
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:24:22-74
 uses-permission#android.permission.BIND_ACCESSIBILITY_SERVICE
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:22:5-23:47
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:25:5-26:47
 	tools:ignore
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:23:9-44
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:26:9-44
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:22:22-82
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:25:22-82
 supports-screens
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:25:5-31:40
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:28:5-34:40
 	android:largeScreens
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:27:9-36
-	android:smallScreens
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:30:9-36
+	android:smallScreens
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:33:9-36
 	android:normalScreens
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:28:9-37
-	android:xlargeScreens
 		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:31:9-37
+	android:xlargeScreens
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:34:9-37
 	android:resizeable
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:29:9-34
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:32:9-34
 	android:anyDensity
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:26:9-34
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:29:9-34
 application
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:33:5-125:19
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:36:5-128:19
 MERGED from [:androidwversionmanager] /home/hilledkinged/Documents/NHapp/NHapp/androidwversionmanager/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
 MERGED from [:androidwversionmanager] /home/hilledkinged/Documents/NHapp/NHapp/androidwversionmanager/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-15:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta4] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/6e302f613b44914198b5d1d7c7541e1d/constraintlayout-2.0.0-beta4/AndroidManifest.xml:9:5-20
@@ -187,162 +199,162 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/hilledkinged/.gra
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/3c1a5ebf565097fe10667d6b9a2c1703/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/3c1a5ebf565097fe10667d6b9a2c1703/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:41:9-52
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:44:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/ccb20ed30836142a5a66c164bb92a0ce/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:36:9-41
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:39:9-41
 	android:windowSoftInputMode
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:40:9-51
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:43:9-51
 	android:supportsPictureInPicture
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:38:9-49
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:41:9-49
 	android:resizeableActivity
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:37:9-42
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:40:9-42
 	android:icon
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:35:9-45
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:38:9-45
 	android:allowBackup
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:34:9-36
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:37:9-36
 	android:theme
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:39:9-47
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:42:9-47
 		REJECTED from [:androidwversionmanager] /home/hilledkinged/Documents/NHapp/NHapp/androidwversionmanager/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-40
 	tools:replace
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:42:9-38
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:45:9-38
 activity#com.offsec.nethunter.AppNavHomeActivity
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:43:9-63:20
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:46:9-66:20
 	android:label
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:46:13-45
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:13-45
 	android:launchMode
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:47:13-43
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:13-43
 	android:configChanges
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:45:13-83
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:13-83
 	android:theme
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:48:13-51
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:51:13-51
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:44:13-47
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:47:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:13-52:29
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:52:13-55:29
 	android:label
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:49:28-70
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:52:28-70
 action#android.intent.action.MAIN
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:17-69
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:50:25-66
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:51:17-77
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:51:27-74
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:54:27-74
 intent-filter#category:name:android.intent.category.DEFAULT
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:53:13-55:29
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:56:13-58:29
 category#android.intent.category.DEFAULT
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:54:17-76
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:57:17-76
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:54:27-73
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:57:27-73
 layout
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:57:13-62:44
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:60:13-65:44
 	android:minWidth
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:62:17-41
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:65:17-41
 	android:minHeight
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:61:17-42
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:64:17-42
 	android:gravity
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:60:17-42
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:63:17-42
 	android:defaultHeight
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:58:17-46
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:61:17-46
 	android:defaultWidth
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:59:17-45
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:62:17-45
 activity#com.offsec.nethunter.EditSourceActivity
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:65:9-73:20
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:68:9-76:20
 	android:label
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:67:13-40
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:13-40
 	android:windowSoftInputMode
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-54
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:72:13-54
 	android:theme
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:68:13-51
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:13-51
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:66:13-47
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:69:13-47
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:70:13-72:55
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:73:13-75:55
 	android:value
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:72:17-52
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:75:17-52
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:71:17-63
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:74:17-63
 activity#com.offsec.nethunter.DeAuthWhitelistActivity
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:74:9-82:20
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:77:9-85:20
 	android:label
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:76:13-43
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:79:13-43
 	android:windowSoftInputMode
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:78:13-54
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:81:13-54
 	android:theme
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:77:13-51
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:80:13-51
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:75:13-52
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:78:13-52
 receiver#com.offsec.nethunter.receiver.BootCompletedReceiver
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:84:9-96:20
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:87:9-99:20
 	android:enabled
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:85:13-35
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:88:13-35
 	android:exported
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:86:13-36
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:13-36
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:84:19-65
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:87:19-65
 intent-filter#action:name:android.intent.action.ACTION_BOOT_COMPLETED+action:name:android.intent.action.ACTION_SHUTDOWN+action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:android.intent.action.REBOOT+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:87:13-95:29
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:13-98:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:17-79
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:17-79
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:89:25-76
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:25-76
 action#android.intent.action.ACTION_BOOT_COMPLETED
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:17-86
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:17-86
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:90:25-83
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:25-83
 action#android.intent.action.REBOOT
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:17-71
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:94:17-71
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:91:25-68
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:94:25-68
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:17-82
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:95:17-82
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:92:25-79
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:95:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:17-82
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:96:17-82
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:93:25-79
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:96:25-79
 action#android.intent.action.ACTION_SHUTDOWN
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:94:17-80
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:97:17-80
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:94:25-77
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:97:25-77
 service#com.offsec.nethunter.service.CompatCheckService
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:98:9-101:39
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:101:9-104:39
 	android:enabled
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:100:13-35
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:103:13-35
 	android:exported
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:101:13-37
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:99:13-55
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:102:13-55
 service#com.offsec.nethunter.service.NotificationChannelService
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:102:9-105:39
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:105:9-108:39
 	android:enabled
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:104:13-35
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:107:13-35
 	android:exported
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:105:13-37
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:108:13-37
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:103:13-63
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:106:13-63
 service#com.offsec.nethunter.service.RunAtBootService
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:106:9-110:71
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:109:9-113:71
 	android:enabled
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:108:13-35
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:111:13-35
 	android:exported
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:109:13-37
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:112:13-37
 	android:permission
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:110:13-69
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:113:13-69
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:107:13-53
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:110:13-53
 service#com.offsec.nethunter.gps.LocationUpdateService
-ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:121:9-124:40
+ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:124:9-127:40
 	android:enabled
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:123:13-35
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:126:13-35
 	android:exported
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:124:13-37
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:127:13-37
 	android:name
-		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:122:13-54
+		ADDED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml:125:13-54
 uses-sdk
 INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/hilledkinged/Documents/NHapp/NHapp/AndroidManifest.xml

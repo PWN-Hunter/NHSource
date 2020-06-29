@@ -11,7 +11,7 @@
         "type": "MAIN",
         "splits": [],
         "versionCode": 1005,
-        "versionName": "1.5-canary",
+        "versionName": "1.5",
         "outputFile": "NHapp-debug.apk",
         "fullName": "debug",
         "baseName": "debug",

@@ -24,7 +24,7 @@ ext {
     minSdkVersion=28
     targetSdkVersion=29
     //version=YYYYMMVVRR (Either "VV" for stable version OR "RR" for pre-release candidate (e.g. 0001 for rc1)
-    versionCode=1001
+    versionCode=1005
     versionName="1.5"
 }
 

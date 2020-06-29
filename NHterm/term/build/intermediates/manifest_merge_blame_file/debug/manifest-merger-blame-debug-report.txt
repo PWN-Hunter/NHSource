@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.offsec.nhterm"
 4    android:installLocation="auto"
-5    android:versionCode="1001"
+5    android:versionCode="1005"
 6    android:versionName="1.5" >
 7
 8    <uses-sdk
