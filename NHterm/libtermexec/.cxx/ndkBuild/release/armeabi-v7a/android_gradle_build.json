@@ -4,19 +4,19 @@
     "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk"
   ],
   "cleanCommands": [
-    "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib clean"
+    "/home/hilledkinged/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib clean"
   ],
-  "buildTargetsCommand": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/hilledkinged/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "jackpal-termexec2-release-armeabi-v7a": {
-      "buildCommand": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjackpal-termexec2.so",
+      "buildCommand": "/home/hilledkinged/Android/Sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-28 NDK_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/lib /home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjackpal-termexec2.so",
       "toolchain": "toolchain-armeabi-v7a",
       "abi": "armeabi-v7a",
       "artifactName": "jackpal-termexec2",
       "files": [
         {
           "src": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni/process.cpp",
-          "flags": "-target armv7-none-linux-androideabi28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/hilledkinged/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/sources/cxx-stl/system/include -I/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+          "flags": "-target armv7-none-linux-androideabi28 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/hilledkinged/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
         }
       ],
       "output": "/home/hilledkinged/Documents/NHapp/NHterm/libtermexec/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjackpal-termexec2.so"
@@ -24,7 +24,7 @@
   },
   "toolchains": {
     "toolchain-armeabi-v7a": {
-      "cppCompilerExecutable": "/home/hilledkinged/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+      "cppCompilerExecutable": "/home/hilledkinged/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],

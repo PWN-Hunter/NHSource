@@ -1,1 +1,20 @@
-[{"outputType":{"type":"APK"},"apkData":{"type":"MAIN","splits":[],"versionCode":1001,"versionName":"1.1","enabled":true,"outputFile":"term-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"term-debug.apk","properties":{}}]
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.offsec.nhterm",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1001,
+      "versionName": "1001",
+      "enabled": true,
+      "outputFile": "term-debug.apk"
+    }
+  ]
+}

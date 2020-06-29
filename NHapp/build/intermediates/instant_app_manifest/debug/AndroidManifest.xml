@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.offsec.nethunter"
     android:targetSandboxVersion="2"
-    android:versionCode="1003"
-    android:versionName="1.3" >
+    android:versionCode="1005"
+    android:versionName="1.5-canary" >
 
     <uses-sdk
-        android:minSdkVersion="29"
+        android:minSdkVersion="26"
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -45,6 +45,7 @@
         android:requestLegacyExternalStorage="true"
         android:resizeableActivity="true"
         android:supportsPictureInPicture="false"
+        android:testOnly="true"
         android:theme="@style/Theme.Nethunter"
         android:windowSoftInputMode="adjustResize" >
         <activity

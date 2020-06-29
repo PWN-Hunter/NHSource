@@ -56,10 +56,6 @@
         "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/drawable-mdpi/ic_menu_windows.png"
     },
     {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHterm/term/build/intermediates/res/merged/debug/drawable-ldpi_nh_background.png.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/drawable-ldpi/nh_background.png"
-    },
-    {
         "merged": "/home/hilledkinged/Documents/NHapp/NHterm/term/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_menu_forward.png.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/res/drawable-mdpi-v11/ic_menu_forward.png"
     },

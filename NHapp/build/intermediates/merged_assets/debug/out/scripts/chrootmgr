@@ -152,7 +152,7 @@ if [ ! $# -eq 0 ]; then
                     bklog "[!] chroot path is set to -> $MNT"
                     if [ ! -d "$MNT" ]; then
                         bklog "[-] \"$MNT\" directory not exist!"
-                        bklog "[!] Click the button [INSTALL KALI CHROOT] down below now!"
+                        bklog "[!] Click the button [INSTALL CHROOT] down below now!"
                         exit 2
                     fi
 

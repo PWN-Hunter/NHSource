@@ -30,14 +30,17 @@ public class CustomCommandsSQL extends SQLiteOpenHelper {
     private static final String TABLE_NAME = DATABASE_NAME;
     private static ArrayList<String> COLUMNS = new ArrayList<>();
     private static final String[][] customcommandsData = {
-            {"1", "Upgrade Chroot metapackages",
+            {"1", "Upgrade Chroot packages",
                     "apt update && apt-get -y upgrade",
                     "kali", "interactive", "0"},
             {"2", "Launch Wifite",
                     "wifite",
                     "kali", "interactive", "0"},
-            {"3", "Start wlan1 in monitor mode",
-                    "ip link set wlan1 down && iw wlan1 set monitor control && ip link set wlan1 up;exit",
+            {"3", "Start wlan0 in monitor mode",
+                    "svc wifi disable && sleep 2 && echo 4 > /sys/module/wlan/parameters/con_mode && sleep 2 && killall -q -SIGSTOP lowi-server || true && ip link set wlan0 up && echo done",
+                    "kali", "interactive", "0"},
+            {"4", "Stop wlan0 in monitor mode",
+                    "ip link set wlan0 down && sleep 5 && echo 0 > /sys/module/wlan/parameters/con_mode && echo done",
                     "kali", "interactive", "0"}
     };
 

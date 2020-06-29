@@ -3,7 +3,7 @@
 3    package="com.offsec.nhterm"
 4    android:installLocation="auto"
 5    android:versionCode="1001"
-6    android:versionName="1.1" >
+6    android:versionName="1.5" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="28"
@@ -118,7 +118,7 @@
 62        android:allowBackup="false"
 62-->/home/hilledkinged/Documents/NHapp/NHterm/term/src/main/AndroidManifest.xml:48:9-36
 63        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-63-->[com.android.support:support-compat:28.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+63-->[com.android.support:support-compat:28.0.0] /home/hilledkinged/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 64        android:debuggable="true"
 65        android:extractNativeLibs="false"
 66        android:hardwareAccelerated="true"

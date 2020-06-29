@@ -1,1 +1,28 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkData":{"type":"MAIN","splits":[],"versionCode":1001,"versionName":"1.1","enabled":true,"outputFile":"term-debug.apk","fullName":"debug","baseName":"debug","dirName":""},"path":"resources-debug.ap_","properties":{"packageId":"com.offsec.nhterm","split":"","minSdkVersion":"28"}}]
+{
+  "version": 1,
+  "applicationId": "com.offsec.nhterm",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1001,
+        "versionName": "1.5",
+        "outputFile": "term-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.offsec.nhterm",
+        "split": "",
+        "minSdkVersion": "28"
+      }
+    }
+  ]
+}

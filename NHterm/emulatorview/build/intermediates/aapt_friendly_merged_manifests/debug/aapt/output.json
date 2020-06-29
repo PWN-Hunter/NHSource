@@ -1,1 +1,27 @@
-[{"outputType":{"type":"AAPT_FRIENDLY_MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1001,"versionName":"1.1","enabled":true,"outputFile":"emulatorview-debug.aar","fullName":"debug","baseName":"debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.offsec.nhterm.emulatorview","split":""}}]
+{
+  "version": 1,
+  "applicationId": "com.offsec.nhterm.emulatorview",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1001,
+        "versionName": "1.5",
+        "outputFile": "emulatorview-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.offsec.nhterm.emulatorview",
+        "split": ""
+      }
+    }
+  ]
+}

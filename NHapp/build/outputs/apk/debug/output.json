@@ -11,8 +11,8 @@
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 1003,
-      "versionName": "1003",
+      "versionCode": 1005,
+      "versionName": "1005",
       "enabled": true,
       "outputFile": "NHapp-debug.apk"
     }

@@ -1,1 +1,27 @@
-[{"outputType":{"type":"AAPT_FRIENDLY_MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1001,"versionName":"1.1","enabled":true,"outputFile":"libtermexec-debug.aar","fullName":"debug","baseName":"debug","dirName":""},"path":"AndroidManifest.xml","properties":{"packageId":"com.offsec.nhterm.libtermexec","split":""}}]
+{
+  "version": 1,
+  "applicationId": "com.offsec.nhterm.libtermexec",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1001,
+        "versionName": "1.5",
+        "outputFile": "libtermexec-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.offsec.nhterm.libtermexec",
+        "split": ""
+      }
+    }
+  ]
+}

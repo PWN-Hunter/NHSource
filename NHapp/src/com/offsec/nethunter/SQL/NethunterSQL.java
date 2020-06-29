@@ -30,20 +30,18 @@ public class NethunterSQL extends SQLiteOpenHelper {
     private static ArrayList<String> COLUMNS = new ArrayList<>();
     private static final String[][] nethunterData = {
             {"1", "Start HID", "setprop sys.usb.config win,hid,adb | echo Done || echo Contact admin for help  ", "\\n", "0"},
-            {"2", "Enable monitor on wlan0", "svc wifi disable && sleep 2 && echo 4 > /sys/module/wlan/parameters/con_mode && sleep 2 && killall -q -SIGSTOP lowi-server || true && ip link set wlan0 up && echo done", "\\n", "0"},
-            {"3", "Disable monitor on wlan0", "ip link set wlan0 down && sleep 5 && echo 0 > /sys/module/wlan/parameters/con_mode && echo done", "\\n", "0"},
-            {"4", "Kernel Version", "uname -a", "\\n", "1"},
-            {"5", "Busybox Version (NH)", NhPaths.BUSYBOX + " | head -n1", "\\n", "1"},
-            {"6", "Busybox Version (System)", "/system/bin/busybox | head -1 || echo no busybox found in /system/bin", "\\n", "1"},
-            {"7", "Root Status", "su -v", "\\n", "1"},
-            {"8", "HID status", "ls /dev/hidg* || echo \"HID interface not found.\"", "\\n", "1"},
-            {"9", "Nethunter Terminal Status", "[ \"$(pm list packages | grep 'com.offsec.nhterm')\" ] && echo \"Nethunter Terminal is installed.\" || echo \"Nethunter Terminal is NOT yet installed.\"", "\\n", "1"},
-            {"10", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
-            {"11", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
-            {"12", "PHunter patreon", "am start -a android.intent.action.VIEW -d https://www.patreon.com/pwn_hunter_rom > /dev/null", "\\n", "0"},
-            {"13", "Our Telegram", "am start -a android.intent.action.VIEW -d https://t.me/pwn_hunter_rom > /dev/null", "\\n", "0"},
-            {"14", "Our Reddit", "am start -a android.intent.action.VIEW -d https://www.reddit.com/r/Pocohunter", "\\n", "0"},
-            {"15", "Our Facebook", "am start -a android.intent.action.VIEW -d https://www.facebook.com/pocohunterproject/ > /dev/null", "\\n", "0"}
+            {"2", "Kernel Version", "uname -a", "\\n", "1"},
+            {"3", "Busybox Version (NH)", NhPaths.BUSYBOX + " | head -n1", "\\n", "1"},
+            {"4", "Busybox Version (System)", "/system/bin/busybox | head -1 || echo no busybox found in /system/bin", "\\n", "1"},
+            {"5", "Root Status", "su -v", "\\n", "1"},
+            {"6", "HID status", "ls /dev/hidg* || echo \"HID interface not found.\"", "\\n", "1"},
+            {"7", "Nethunter Terminal Status", "[ \"$(pm list packages | grep 'com.offsec.nhterm')\" ] && echo \"Nethunter Terminal is installed.\" || echo \"Nethunter Terminal is NOT yet installed.\"", "\\n", "1"},
+            {"8", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
+            {"9", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
+            {"10", "PHunter patreon", "am start -a android.intent.action.VIEW -d https://www.patreon.com/pwn_hunter_rom > /dev/null", "\\n", "0"},
+            {"11", "Our Telegram", "am start -a android.intent.action.VIEW -d https://t.me/pwn_hunter_rom > /dev/null", "\\n", "0"},
+            {"12", "Our Reddit", "am start -a android.intent.action.VIEW -d https://www.reddit.com/r/Pocohunter", "\\n", "0"},
+            {"13", "Our Facebook", "am start -a android.intent.action.VIEW -d https://www.facebook.com/pocohunterproject/ > /dev/null", "\\n", "0"}
     };
 
     public synchronized static NethunterSQL getInstance(Context context){

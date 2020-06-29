@@ -1,1 +1,6 @@
-[]
+{
+  "version": 1,
+  "applicationId": "com.offsec.nhterm",
+  "variantType": "BASE_APK",
+  "elements": []
+}
