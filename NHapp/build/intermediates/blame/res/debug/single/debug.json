@@ -48,24 +48,24 @@
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/menu/searchsploit.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/drawable_ic_system_update_black_36dp.xml.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/drawable/ic_system_update_black_36dp.xml"
-    },
-    {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_kaliservices_recyclerview_servicetitle.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/kaliservices_recyclerview_servicetitle.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/drawable_ic_system_update_black_36dp.xml.flat",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/drawable/ic_system_update_black_36dp.xml"
     },
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_nethunter_recyclerview_main.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/nethunter_recyclerview_main.xml"
     },
     {
-        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_custom_dialog_view.xml.flat",
-        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_custom_dialog_view.xml"
-    },
-    {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_recyclerview_dialog_delete.xml.flat",
         "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/layout_customcommands_custom_dialog_view.xml.flat",
+        "source": "/home/hilledkinged/Documents/NHapp/NHapp/res/layout/customcommands_custom_dialog_view.xml"
     },
     {
         "merged": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/res/merged/debug/menu_kaliservices.xml.flat",
