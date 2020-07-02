@@ -1799,6 +1799,7 @@ id bt_switch
 id bt_time
 id buildinfo1
 id buildinfo2
+id button
 id buttonPanel
 id cancel_action
 id cancel_button
@@ -2157,6 +2158,7 @@ id info_fab
 id injectfilebrowse
 id injectfilename
 id installButton
+id installdeps_item
 id invisible
 id ipaddress
 id italic
@@ -2473,6 +2475,8 @@ id textView
 id textView1
 id textView10
 id textView11
+id textView12
+id textView13
 id textView17
 id textView18
 id textView19
@@ -2657,6 +2661,7 @@ layout hid
 layout hid_powershell_http
 layout hid_powersploit
 layout hid_windows_cmd
+layout installdeps
 layout kaliservices
 layout kaliservices_add_dialog_view
 layout kaliservices_custom_dialog_view
