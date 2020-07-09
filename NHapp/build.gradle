@@ -73,19 +73,6 @@ android {
 
     signingConfigs {
 
-        release {
-            storeFile file('/home/hilledkinged/Documents/keys/pwn_key.jks')
-            storePassword 'KittyCatted916'
-            keyPassword 'KittyCatted916'
-            keyAlias 'key0'
-        }
-        debug {
-            storeFile file('/home/hilledkinged/Documents/keys/pwn_key.jks')
-            storePassword 'KittyCatted916'
-            keyAlias 'key0'
-            keyPassword 'KittyCatted916'
-        }
-
         /* note:  To build a signed version of nethunter:
         1. Put your keystore in ~/.android/release-keystore and set up a key "nethunter"
         2. set KEYSTORE_PASSWORD and KEY_PASSWORD environment variables before running gradle.  this
