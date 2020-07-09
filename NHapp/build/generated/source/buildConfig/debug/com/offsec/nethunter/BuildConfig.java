@@ -11,5 +11,5 @@ public final class BuildConfig {
   public static final String VERSION_NAME = "1.5";
   // Fields from build type: debug
   public static final String BUILD_NAME = "hilledkinged";
-  public static final java.util.Date BUILD_TIME = new java.util.Date(1594314181890L);
+  public static final java.util.Date BUILD_TIME = new java.util.Date(1594314324254L);
 }
