@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.offsec.nethunter"
-    android:versionCode="1005"
-    android:versionName="1.5" >
+    android:versionCode="10056"
+    android:versionName="1.6" >
 
     <uses-sdk
         android:minSdkVersion="26"
@@ -47,6 +47,7 @@
         android:requestLegacyExternalStorage="true"
         android:resizeableActivity="true"
         android:supportsPictureInPicture="false"
+        android:testOnly="true"
         android:theme="@style/Theme.Nethunter"
         android:windowSoftInputMode="adjustResize" >
         <activity

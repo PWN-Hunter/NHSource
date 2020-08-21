@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "/home/bobthebuilder/Documents/Projects/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/hilledkinged/.gradle/caches/transforms-2/files-2.1/8cd05cce97d79b0b8d0cf511d329dc6e/material-1.2.0-alpha05/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+                    "source": "/home/bobthebuilder/.gradle/caches/transforms-2/files-2.1/4803e070730b5e710d05dd31c424cbdc/material-1.2.0-alpha05/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

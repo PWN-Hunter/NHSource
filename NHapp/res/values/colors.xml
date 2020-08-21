@@ -2,12 +2,12 @@
 <resources>
 
     <item name="blue" type="color">#33B5E5</item>
-    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkorange" type="color">#0A4368</item>
 
     <item name="clearTitle" type="color">#fcfcfc</item>
     <item name="clearText" type="color">#d9d9d9</item>
 
-    <item name="darkTitle" type="color">#444</item>
+    <item name="darkTitle" type="color">#000000</item>
 
 
 </resources>

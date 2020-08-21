@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/home/bobthebuilder/Documents/Projects/NHapp/NHapp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/home/hilledkinged/Documents/NHapp/NHapp/androidwversionmanager/build/intermediates/packaged_res/debug/values-v14/values-v14.xml",
+                    "source": "/home/bobthebuilder/Documents/Projects/NHapp/NHapp/androidwversionmanager/build/intermediates/packaged_res/debug/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

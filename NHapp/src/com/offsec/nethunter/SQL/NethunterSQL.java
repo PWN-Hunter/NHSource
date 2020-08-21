@@ -39,10 +39,6 @@ public class NethunterSQL extends SQLiteOpenHelper {
             {"7", "Stop wlan0 in monitor mode", "ip link set wlan0 down && sleep 5 && echo 0 > /sys/module/wlan/parameters/con_mode && echo done", "\\n", "0"},
             {"8", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
             {"9", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
-            {"10", "PHunter patreon", "am start -a android.intent.action.VIEW -d https://www.patreon.com/pwn_hunter_rom > /dev/null", "\\n", "0"},
-            {"11", "Our Telegram", "am start -a android.intent.action.VIEW -d https://t.me/pwn_hunter_rom > /dev/null", "\\n", "0"},
-            {"12", "Our Reddit", "am start -a android.intent.action.VIEW -d https://www.reddit.com/r/Pocohunter", "\\n", "0"},
-            {"13", "Our Facebook", "am start -a android.intent.action.VIEW -d https://www.facebook.com/pocohunterproject/ > /dev/null", "\\n", "0"}
     };
 
     public synchronized static NethunterSQL getInstance(Context context){

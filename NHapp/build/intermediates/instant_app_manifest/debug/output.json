@@ -10,8 +10,8 @@
       "apkData": {
         "type": "MAIN",
         "splits": [],
-        "versionCode": 1005,
-        "versionName": "1.5",
+        "versionCode": 10056,
+        "versionName": "1.6",
         "outputFile": "NHapp-debug.apk",
         "fullName": "debug",
         "baseName": "debug",

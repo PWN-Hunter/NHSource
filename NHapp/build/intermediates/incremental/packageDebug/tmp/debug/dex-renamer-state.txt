@@ -1,10 +1,10 @@
-#Thu Jul 09 20:05:28 EEST 2020
+#Fri Aug 21 20:32:59 EEST 2020
 path.2=classes_0.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
-base.1=/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
-base.0=/home/hilledkinged/Documents/NHapp/NHapp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.2=/home/bobthebuilder/Documents/Projects/NHapp/NHapp/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
+base.1=/home/bobthebuilder/Documents/Projects/NHapp/NHapp/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.0=/home/bobthebuilder/Documents/Projects/NHapp/NHapp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
