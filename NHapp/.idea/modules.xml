@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/NHapp.iml" filepath="$PROJECT_DIR$/NHapp.iml" group="NHapp" />
-      <module fileurl="file://$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" filepath="$PROJECT_DIR$/androidwversionmanager/androidwversionmanager.iml" group="NHapp/androidwversionmanager" />
-    </modules>
-  </component>
-</project>

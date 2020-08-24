@@ -1,3 +1,0 @@
-com.offsec.nhterm.emulatorview
-drawable atari_small
-drawable atari_small_nodpi
