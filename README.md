@@ -1,2 +1,3 @@
 # NHapp
-Here will be a modified nethunter apps that are used in PHunter ROM
+## The new material skin was made by:
+* t.me/cxblack
