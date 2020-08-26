@@ -39,20 +39,19 @@
             android:layout_width="match_parent"
             android:layout_height="38dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Preview" />
-
-        <EditText
-            android:id="@+id/editSource"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:includeFontPadding="false"
-            android:inputType="textMultiLine"
-            android:layout_marginLeft="1dip"
-            android:layout_marginRight="1dip" />
+            android:hint="Preview">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editSource"
+                android:includeFontPadding="false"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -64,14 +63,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/load"
                 android:id="@+id/duckyLoad"
-                style="?android:attr/buttonBarButtonStyle"/>
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/save"
                 android:id="@+id/duckySave"
-                style="?android:attr/buttonBarButtonStyle"/>
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

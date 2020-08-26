@@ -18,28 +18,31 @@
             android:gravity="center"
             android:padding="4dp" />
 
-        <TextView
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ps_ip_address"
-            android:padding="4dp" />
+            android:hint="@string/ps_ip_address">
 
-        <EditText
-            android:id="@+id/ipaddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/ps_port"
-            android:padding="4dp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ipaddress"
+                android:ems="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/port"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"/>
+            android:hint="@string/ps_port">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/port"
+                android:ems="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -54,20 +57,24 @@
             android:entries="@array/payloads"
             android:prompt="@string/payload_select" />
 
-        <TextView
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ps_payload_url"
-            android:padding="4dp" />
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/ps_payload_url">
 
-        <EditText
-            android:id="@+id/payloadUrl"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/payloadUrl"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/powersploitOptionsUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -16,11 +16,10 @@
             android:lines="20"
             android:includeFontPadding="false"
             android:paddingTop="0px"
-            android:gravity="top"
-            android:layout_marginLeft="1dip"
-            android:layout_marginRight="1dip" />
+            android:gravity="top" />
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

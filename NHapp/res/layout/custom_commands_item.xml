@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/runCommand"
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -53,7 +53,7 @@
         android:layout_marginTop="@dimen/base_listItem_LR"
         android:layout_marginRight="@dimen/base_listItem_LR"
         android:text="Run"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@color/colorPrimary" />
 
     <TextView
         android:layout_width="wrap_content"

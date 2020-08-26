@@ -314,8 +314,10 @@ public class AppNavHomeActivity extends AppCompatActivity implements KaliGPSUpda
         final String buildTime = sdf.format(BuildConfig.BUILD_TIME);
         TextView buildInfo1 = navigationHeadView.findViewById(R.id.buildinfo1);
         TextView buildInfo2 = navigationHeadView.findViewById(R.id.buildinfo2);
-        buildInfo1.setText(String.format("App version: %s", BuildConfig.VERSION_NAME, Build.TAGS));
-        buildInfo2.setText(String.format("Built by %s at %s", BuildConfig.BUILD_NAME, buildTime));
+        TextView buildInfo3 = navigationHeadView.findViewById(R.id.buildinfo3);
+        buildInfo1.setText(String.format("Version: %s (%s)", BuildConfig.VERSION_NAME, Build.TAGS));
+        buildInfo2.setText(String.format("Material Design by Mirivan (t.me/cxblack)"));
+        buildInfo3.setText(String.format("Built at %s", buildTime));
 
         if (navigationView != null) {
             setupDrawerContent(navigationView);
@@ -323,7 +325,8 @@ public class AppNavHomeActivity extends AppCompatActivity implements KaliGPSUpda
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // detail for android 5 devices
-            getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.darkTitle));
+            getWindow().setStatusBarColor(ContextCompat.getColor(this, R.color.colorBars));
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorBars));
         }
 
         getSupportFragmentManager()

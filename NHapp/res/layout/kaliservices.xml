@@ -55,28 +55,28 @@
                 android:id="@+id/f_kaliservices_refreshButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@android:style/Holo.Light.ButtonBar"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:text="Refresh" />
 
             <Button
                 android:id="@+id/f_kaliservices_addItemButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@android:style/Holo.Light.ButtonBar"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:text="Add" />
 
             <Button
                 android:id="@+id/f_kaliservices_deleteItemButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@android:style/Holo.Light.ButtonBar"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:text="Delete" />
 
             <Button
                 android:id="@+id/f_kaliservices_moveItemButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@android:style/Holo.Light.ButtonBar"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:text="Move" />
 
         </LinearLayout>

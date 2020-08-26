@@ -15,6 +15,7 @@ import java.util.Locale;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NavUtils;
+import androidx.core.content.ContextCompat;
 
 public class EditSourceActivity extends AppCompatActivity {
 
@@ -31,7 +32,8 @@ public class EditSourceActivity extends AppCompatActivity {
         setContentView(R.layout.source);
         if (Build.VERSION.SDK_INT >= 21) {
             // detail for android 5 devices
-            getWindow().setStatusBarColor(getResources().getColor(R.color.darkTitle));
+            getWindow().setStatusBarColor(getResources().getColor(R.color.colorBars));
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.colorBars));
         }
 
         EditText source = findViewById(R.id.source);

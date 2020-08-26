@@ -156,26 +156,26 @@
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/mitmf_screenshotter_interval"
-                android:labelFor="@+id/mitmf_screen_interval" />
-
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <EditText
-                    android:layout_width="91dp"
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
-                    android:ems="10"
-                    android:id="@+id/mitmf_screen_interval"
-                    android:maxLines="1" />
-                <!--android:enabled="@{mitmfScreenshotter.checked}"-->
+                    android:hint="@string/mitmf_screenshotter_interval">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mitmf_screen_interval"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:maxLines="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
             </LinearLayout>
 
             <ImageView

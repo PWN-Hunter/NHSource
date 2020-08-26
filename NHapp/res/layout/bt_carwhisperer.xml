@@ -42,6 +42,7 @@
     </LinearLayout>
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/set_target"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -149,12 +150,13 @@
                 android:text="/root/carwhisperer/message.wav" />
 
             <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:id="@+id/injectfilebrowse"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
                 android:text="..."
-                android:textColor="#ffffffff" />
+                android:textColor="#ffffff" />
 
         </LinearLayout>
 
@@ -165,6 +167,7 @@
         android:orientation="horizontal">
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/start_cw"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -173,6 +176,7 @@
             android:textColor="#ffffffff" />
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/stop_cw"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

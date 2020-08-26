@@ -45,7 +45,7 @@ public class MITMfFragment extends Fragment {
     public interface CommandProvider {
         void getCommands(StringBuilder stringBuilder);
     }
-    
+
     // ^^ \\
     // static String CommandComposed = "";
     private static final ArrayList<String> CommandComposed = new ArrayList<>();

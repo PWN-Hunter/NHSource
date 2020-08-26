@@ -2,9 +2,7 @@ package com.offsec.nethunter;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
@@ -44,7 +42,6 @@ public class ManaFragment extends Fragment {
 
     private ViewPager mViewPager;
 
-    private SharedPreferences sharedpreferences;
     private Integer selectedScriptIndex = 0;
     private final CharSequence[] scripts = {"mana-nat-full", "mana-nat-simple", "mana-nat-bettercap", "mana-nat-simple-bdf", "hostapd-wpe", "hostapd-wpe-karma"};
     private static final String TAG = "ManaFragment";
@@ -116,9 +113,6 @@ public class ManaFragment extends Fragment {
             case R.id.stop_service:
                 stopMana();
                 return true;
-            case R.id.first_run:
-                Firstrun();
-                return true;
             case R.id.source_button:
                 Intent i = new Intent(activity, EditSourceActivity.class);
                 i.putExtra("path", configFilePath);
@@ -173,11 +167,11 @@ public class ManaFragment extends Fragment {
                     break;
                 case 4:
                     NhPaths.showMessage(context, "Starting HOSTAPD-WPE");
-                    intentClickListener_NH(NhPaths.makeTermTitle("HOSTAPD-WPE") + "ifconfig wlan1 up && /usr/sbin/hostapd-wpe /sdcard/nh_files/configs/hostapd-wpe.conf");
+                    intentClickListener_NH(NhPaths.makeTermTitle("HOSTAPD-WPE") + "ifconfig wlan1 up && /usr/bin/hostapd-wpe /sdcard/nh_files/configs/hostapd-wpe.conf");
                     break;
                 case 5:
                     NhPaths.showMessage(context, "Starting HOSTAPD-WPE with Karma");
-                    intentClickListener_NH(NhPaths.makeTermTitle("HOSTAPD-WPE-KARMA") + "ifconfig wlan1 up && /usr/sbin/hostapd-wpe -k /sdcard/nh_files/configs/hostapd-wpe.conf");
+                    intentClickListener_NH(NhPaths.makeTermTitle("HOSTAPD-WPE-KARMA") + "ifconfig wlan1 up && /usr/bin/hostapd-wpe -k /sdcard/nh_files/configs/hostapd-wpe.conf");
                     break;
                 default:
                     NhPaths.showMessage(context, "Invalid script!");
@@ -190,13 +184,6 @@ public class ManaFragment extends Fragment {
         builder.setSingleChoiceItems(scripts, selectedScriptIndex, (dialog, which) -> selectedScriptIndex = which);
         builder.show();
 
-    }
-
-    public void Firstrun() {
-        sharedpreferences = activity.getSharedPreferences("com.offsec.nethunter", Context.MODE_PRIVATE);
-        intentClickListener_NH("echo -ne \"\\033]0;Mana first setup\\007\"" +
-                "apt-get update && apt-get install mana-toolkit hostapd hostapd-wpe");
-        sharedpreferences.edit().putBoolean("setup_done", true).apply();
     }
 
     private void stopMana() {
@@ -371,44 +358,44 @@ public class ManaFragment extends Fragment {
                 ifc.post(new Runnable() {
                     @Override
                     public void run() {
-                    /*
-                     * Interface
-                     */
+                        /*
+                         * Interface
+                         */
                         if (matcherIfc.find()) {
                             String ifcValue = matcherIfc.group(1);
                             ifc.setText(ifcValue);
                         }
-                    /*
-                     * bssid
-                     */
+                        /*
+                         * bssid
+                         */
                         if (matcherBssid.find()) {
                             String bssidVal = matcherBssid.group(1);
                             bssid.setText(bssidVal);
                         }
-                    /*
-                     * ssid
-                     */
+                        /*
+                         * ssid
+                         */
                         if (matcherSsid.find()) {
                             String ssidVal = matcherSsid.group(1);
                             ssid.setText(ssidVal);
                         }
-                    /*
-                     * channel
-                     */
+                        /*
+                         * channel
+                         */
                         if (matcherChannel.find()) {
                             String channelVal = matcherChannel.group(1);
                             channel.setText(channelVal);
                         }
-                    /*
-                     * enable_mana
-                     */
+                        /*
+                         * enable_mana
+                         */
                         if (matcherEnableKarma.find()) {
                             String enableKarmaVal = matcherEnableKarma.group(1);
                             enableKarma.setText(enableKarmaVal);
                         }
-                   /*
-                   * mana_loud
-                   */
+                        /*
+                         * mana_loud
+                         */
                         if (matcherKarmaLoud.find()) {
                             String karmaLoudVal = matcherKarmaLoud.group(1);
                             karmaLoud.setText(karmaLoudVal);
@@ -445,7 +432,7 @@ public class ManaFragment extends Fragment {
                 Intent intent =
                         new Intent("com.offsec.nhterm.RUN_SCRIPT_NH");
                 intent.addCategory(Intent.CATEGORY_DEFAULT);
-                intent.putExtra("com.offsec.nhterm.iInitialCommand", "cd /etc/hostapd-wpe/certs && ./bootstrap");
+                intent.putExtra("com.offsec.nhterm.iInitialCommand", "cd /usr/share/hostapd-wpe/certs && ./bootstrap");
                 startActivity(intent);
             });
 
@@ -519,37 +506,37 @@ public class ManaFragment extends Fragment {
                 ifc.post(new Runnable() {
                     @Override
                     public void run() {
-                    /*
-                     * Interface
-                     */
+                        /*
+                         * Interface
+                         */
                         if (matcherIfc.find()) {
                             String ifcValue = matcherIfc.group(1);
                             ifc.setText(ifcValue);
                         }
-                    /*
-                     * bssid
-                     */
+                        /*
+                         * bssid
+                         */
                         if (matcherBssid.find()) {
                             String bssidVal = matcherBssid.group(1);
                             bssid.setText(bssidVal);
                         }
-                    /*
-                     * ssid
-                     */
+                        /*
+                         * ssid
+                         */
                         if (matcherSsid.find()) {
                             String ssidVal = matcherSsid.group(1);
                             ssid.setText(ssidVal);
                         }
-                    /*
-                     * channel
-                     */
+                        /*
+                         * channel
+                         */
                         if (matcherChannel.find()) {
                             String channelVal = matcherChannel.group(1);
                             channel.setText(channelVal);
                         }
-                    /*
-                     * Private Key File
-                     */
+                        /*
+                         * Private Key File
+                         */
                         if (matcherPrivateKey.find()) {
                             String PrivateKeyVal = matcherPrivateKey.group(1);
                             privatekey.setText(PrivateKeyVal);

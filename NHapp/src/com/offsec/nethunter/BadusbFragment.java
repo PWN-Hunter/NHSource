@@ -46,6 +46,8 @@ public class BadusbFragment extends Fragment {
         activity = getActivity();
         if (Build.VERSION.SDK_INT >= 21) {
             sourcePath = NhPaths.APP_SD_FILES_PATH + "/configs/startbadusb-lollipop.sh";
+        } else {
+            sourcePath = NhPaths.APP_SD_FILES_PATH + "/configs/startbadusb-kitkat.sh";
         }
     }
 
@@ -115,6 +117,8 @@ public class BadusbFragment extends Fragment {
         Boolean r = exe.SaveFileContents(sourceFile, sourcePath);// 1st arg contents, 2nd arg filepath
         if (r) {
             NhPaths.showMessage(context,"Options updated!");
+        } else {
+            NhPaths.showMessage(context,"Options not updated!");
         }
     }
 
@@ -123,9 +127,11 @@ public class BadusbFragment extends Fragment {
         String[] command = new String[1];
         if (Build.VERSION.SDK_INT >= 21) {
             command[0] = NhPaths.APP_SCRIPTS_PATH + "/start-badusb-lollipop &> " + NhPaths.APP_SD_FILES_PATH + "/badusb.log &";
+        } else {
+            command[0] = NhPaths.APP_SCRIPTS_PATH + "/start-badusb-kitkat &> " + NhPaths.APP_SD_FILES_PATH + "/badusb.log &";
         }
         exe.RunAsRoot(command);
-        NhPaths.showMessage(context,"BadUSB attack started! Check /sdcard/nh_files/badusb.log for more info!!");
+        NhPaths.showMessage(context,"BadUSB attack started! Check /sdcard/nh_files/badusb.log");
     }
 
     private void stop() {
@@ -133,6 +139,8 @@ public class BadusbFragment extends Fragment {
         String[] command = new String[1];
         if (Build.VERSION.SDK_INT >= 21) {
             command[0] = NhPaths.APP_SCRIPTS_PATH + "/stop-badusb-lollipop";
+        } else {
+            command[0] = NhPaths.APP_SCRIPTS_PATH + "/stop-badusb-kitkat";
         }
         exe.RunAsRoot(command);
         NhPaths.showMessage(context,"BadUSB attack stopped!");

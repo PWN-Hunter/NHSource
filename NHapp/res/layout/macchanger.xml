@@ -64,7 +64,7 @@
                     android:layout_toStartOf="@+id/f_macchanger_setHostname_btn" />
 
                 <Button
-                    style="?android:attr/buttonStyleSmall"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/f_macchanger_setHostname_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -246,6 +246,7 @@
                 </LinearLayout>
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/f_macchanger_regenerate_mac_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -253,6 +254,7 @@
                     android:visibility="gone"/>
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/f_macchanger_clear_mac_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -262,12 +264,14 @@
             </LinearLayout>
 
             <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:id="@+id/f_macchanger_set_mac_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
 
             <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:id="@+id/f_macchanger_reset_mac_btn"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

@@ -30,6 +30,7 @@
             android:layout_marginRight="1dip" />
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/deauth_update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

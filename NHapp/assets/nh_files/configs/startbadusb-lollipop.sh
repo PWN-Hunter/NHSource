@@ -76,12 +76,10 @@ iptables -I FORWARD 1 -i $INTERFACE -j ACCEPT
 echo "1"
 iptables -t nat -I POSTROUTING 1 -j MASQUERADE
 echo "2"
-iptables -D natctrl_FORWARD -j DROP
-echo "3"
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 # dnsmasq -H /data/local/tmp/hosts -i $INTERFACE -R -S 8.8.8.8 -F 10.0.0.100,10.0.0.200 -x $TMPDIR/dnsmasq.pid
-echo "4"
+echo "3"
 dnsmasq -C /sdcard/nh_files/configs/dnsmasq.conf -x $TMPDIR/dnsmasq.pid -i $INTERFACE
 
 ## log-facility=/sdcard/nh_files/dnsmasq.log

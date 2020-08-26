@@ -18,20 +18,25 @@
             android:layout_gravity="center_horizontal|center"
             android:gravity="center"
             android:padding="4dp" />
-        <TextView
-            android:layout_width="230dp"
-            android:layout_height="match_parent"
-            android:text="@string/ps_payload_url"
-            android:padding="4dp" />
 
-        <EditText
-            android:id="@+id/payloadUrl"
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"/>
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/ps_payload_url">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/payloadUrl"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/powershellOptionsUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -111,11 +111,11 @@
         </LinearLayout>
 
         <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/f_customcommands_recyclerview_btn_run"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
-            android:textColor="@android:color/holo_blue_dark"
             android:layout_gravity="bottom"
             android:text="RUN"/>
     </LinearLayout>

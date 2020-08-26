@@ -58,14 +58,14 @@
 
     <Button
         android:id="@+id/viewSource"
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/searchsploit_sendhid_button"
         android:layout_alignStart="@+id/openWeb"
         android:layout_marginRight="@dimen/base_listItem_LR"
         android:text="View Source"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@color/colorPrimary" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -119,24 +119,24 @@
 
     <Button
         android:id="@+id/openWeb"
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/viewSource"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="@dimen/base_listItem_LR"
         android:text="View in www"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/searchsploit_sendhid_button"
-        style="?android:attr/buttonStyleSmall"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/viewSource"
         android:layout_alignEnd="@+id/viewSource"
         android:layout_alignParentTop="true"
         android:text="SEND HID"
-        android:textColor="@android:color/holo_blue_dark" />
+        android:textColor="@color/colorPrimary" />
 
 </RelativeLayout>

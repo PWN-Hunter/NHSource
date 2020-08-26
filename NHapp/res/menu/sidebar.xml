@@ -12,6 +12,10 @@
             android:title="@string/drawertitlecreatechroot" />
     </group>
     <group android:id="@+id/chrootDependentGroup">
+        <!-- <item
+             android:id="@+id/kalilauncher_item"
+             android:icon="@drawable/ic_action_launch"
+             android:title="@string/drawertitlekalilauncher" />   -->
          <item
              android:id="@+id/kaliservices_item"
              android:icon="@drawable/ic_action_settings_applications"

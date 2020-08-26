@@ -129,19 +129,19 @@ public class BTFragment extends Fragment {
 
     public void RunSetup() {
         sharedpreferences = activity.getSharedPreferences("com.offsec.nethunter", Context.MODE_PRIVATE);
-        intentClickListener_NH("echo -ne \"\\033]0;BT Arsenal Setup\\007\" && clear;if [[ -f /usr/bin/hciconfig && -f /usr/bin/l2ping && " +
-                "-f /usr/bin/fang && -f /usr/bin/blueranger &&-f /usr/bin/bluelog && -f /usr/bin/sdptool && -f /usr/bin/sox ]];then echo \"All packages are installed!\"; else " +
-                "apt-get update && apt-get install bluetooth bluez bluez-tools bluez-obexd libbluetooth3 sox " +
-                "libbluetooth-dev redfang bluelog blueranger -y;fi; if [[ -f /usr/bin/carwhisperer && -f /usr/bin/rfcomm_scan ]];then echo \"All scripts are installed!\"; else " +
-                "git clone https://github.com/yesimxev/carwhisperer-0.2 /root/carwhisperer;" +
-                "cd /root/carwhisperer;make && make install;git clone https://github.com/yesimxev/bt_audit /root/bt_audit;cd /root/bt_audit/src;make;" +
-                "cp rfcomm_scan /usr/bin/;fi; echo \"Everything is installed! Closing in 3secs..\"; sleep 3 && exit ");
-        sharedpreferences.edit().putBoolean("setup_done", true).apply();
+                intentClickListener_NH("echo -ne \"\\033]0;BT Arsenal Setup\\007\" && clear;if [[ -f /usr/bin/hciconfig && -f /usr/bin/l2ping && " +
+                        "-f /usr/bin/fang && -f /usr/bin/blueranger &&-f /usr/bin/bluelog && -f /usr/bin/sdptool && -f /usr/bin/spooftooph && -f /usr/bin/sox ]];then echo \"All packages are installed!\"; else " +
+                        "apt-get update && apt-get install bluetooth bluez bluez-tools bluez-obexd libbluetooth3 sox spooftooph " +
+                        "libbluetooth-dev redfang bluelog blueranger -y;fi; if [[ -f /usr/bin/carwhisperer && -f /usr/bin/rfcomm_scan ]];then echo \"All scripts are installed!\"; else " +
+                        "git clone https://github.com/yesimxev/carwhisperer-0.2 /root/carwhisperer;" +
+                        "cd /root/carwhisperer;make && make install;git clone https://github.com/yesimxev/bt_audit /root/bt_audit;cd /root/bt_audit/src;make;" +
+                        "cp rfcomm_scan /usr/bin/;fi; echo \"Everything is installed! Closing in 3secs..\"; sleep 3 && exit ");
+                sharedpreferences.edit().putBoolean("setup_done", true).apply();
     }
 
     public void RunUpdate() {
         sharedpreferences = activity.getSharedPreferences("com.offsec.nethunter", Context.MODE_PRIVATE);
-        intentClickListener_NH("echo -ne \"\\033]0;BT Arsenal Update\\007\" && clear;apt-get update && apt-get install bluetooth bluez bluez-tools bluez-obexd libbluetooth3 sox " +
+        intentClickListener_NH("echo -ne \"\\033]0;BT Arsenal Update\\007\" && clear;apt-get update && apt-get install bluetooth bluez bluez-tools bluez-obexd libbluetooth3 sox spooftooph " +
                 "libbluetooth-dev redfang bluelog blueranger -y;if [[ -f /usr/bin/carwhisperer && -f /usr/bin/rfcomm_scan ]];then cd /root/carwhisperer/;git pull && make && make install;cd /root/bt_audit; git pull; cd src && make;" +
                 "cp rfcomm_scan /usr/bin/;fi; echo \"Done! Closing in 3secs..\"; sleep 3 && exit ");
         sharedpreferences.edit().putBoolean("setup_done", true).apply();
@@ -272,13 +272,13 @@ public class BTFragment extends Fragment {
 
             dbusSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                    if (isChecked) {
-                        exe.RunAsRoot(new String[]{"bootkali custom_cmd service dbus start"});
-                        DBUSstatus.setText("Running");
-                    } else {
-                        exe.RunAsRoot(new String[]{"bootkali custom_cmd service dbus stop"});
-                        DBUSstatus.setText("Stopped");
-                    }
+                        if (isChecked) {
+                            exe.RunAsRoot(new String[]{"bootkali custom_cmd service dbus start"});
+                            DBUSstatus.setText("Running");
+                        } else {
+                            exe.RunAsRoot(new String[]{"bootkali custom_cmd service dbus stop"});
+                            DBUSstatus.setText("Stopped");
+                        }
                 }
             });
             btSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -334,7 +334,7 @@ public class BTFragment extends Fragment {
                                 });
                                 exe.RunAsRoot(new String[]{"bootkali custom_cmd rm /root/blue.log"});
                                 exe.RunAsRoot(new String[]{"bootkali custom_cmd timeout " + scantime + " bluelog -i " + selected_iface + " -ncqo /root/blue.log;hciconfig " + selected_iface + " noscan"});
-                                getActivity().runOnUiThread(new Runnable() {
+                                 getActivity().runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
                                         String outputScanLog = exe.RunAsRootOutput("cat " + ScanLog);
@@ -646,9 +646,9 @@ public class BTFragment extends Fragment {
                 } else {
                     final String target_classname = target_class + target_name;
                     if (!target_address.equals(" -a ")) {
-                        intentClickListener_NH("echo -ne \"\\033]0;Spoofing Bluetooth\\007\" && clear;echo \"Spooftooph started..\";spooftooph " + target_interface + target_address + "; sleep 2 && hciconfig " + target_interface + " up && spooftooph " + target_interface + target_classname + " && echo \"\nBringing interface up with hciconfig..\n\nClass/Name changed, closing in 3 secs..\";sleep 3 && exit");
+                        intentClickListener_NH("echo -ne \"\\033]0;Spoofing Bluetooth\\007\" && clear;echo \"Spooftooph started..\";spooftooph -i " + target_interface + target_address + "; sleep 2 && hciconfig " + target_interface + " up && spooftooph -i " + target_interface + target_classname + " && echo \"\nBringing interface up with hciconfig..\n\nClass/Name changed, closing in 3 secs..\";sleep 3 && exit");
                     } else {
-                        intentClickListener_NH("echo -ne \"\\033]0;Spoofing Bluetooth\\007\" && clear;echo \"Spooftooph started..\";spooftooph " + target_interface + target_classname + " && echo \"\nClass/Name changed, closing in 3 secs..\";sleep 3 && exit");
+                        intentClickListener_NH("echo -ne \"\\033]0;Spoofing Bluetooth\\007\" && clear;echo \"Spooftooph started..\";spooftooph -i " + target_interface + target_classname + " && echo \"\nClass/Name changed, closing in 3 secs..\";sleep 3 && exit");
                     }
                 }
             });
@@ -750,7 +750,7 @@ public class BTFragment extends Fragment {
                 intent.setType("audio/*");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(Intent.createChooser(intent, "Select audio file"),1001);
-            });
+                });
 
             //Launch
             Button StartCWButton = rootView.findViewById(R.id.start_cw);
@@ -775,9 +775,9 @@ public class BTFragment extends Fragment {
             //Kill
             Button StopCWButton = rootView.findViewById(R.id.stop_cw);
             StopCWButton.setOnClickListener( v -> {
-                exe.RunAsRoot(new String[]{"bootkali custom_cmd pkill carwhisperer"});
-                Toast.makeText(getActivity().getApplicationContext(), "Killed", Toast.LENGTH_SHORT).show();
-            });
+                    exe.RunAsRoot(new String[]{"bootkali custom_cmd pkill carwhisperer"});
+                    Toast.makeText(getActivity().getApplicationContext(), "Killed", Toast.LENGTH_SHORT).show();
+                    });
 
             //Stream or play audio
             ImageButton PlayAudioButton = rootView.findViewById(R.id.play_audio);
@@ -813,8 +813,8 @@ public class BTFragment extends Fragment {
                 }
             });
             StopAudioButton.setOnClickListener(v -> {
-                audioTrack.pause();
-                audioTrack.flush();
+                        audioTrack.pause();
+                        audioTrack.flush();
             });
             return rootView;
         }
@@ -823,16 +823,16 @@ public class BTFragment extends Fragment {
     public void onActivityResult(int requestCode, int resultCode,
                                  Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1001) {
-            if (resultCode == Activity.RESULT_OK) {
-                ShellExecuter exe = new ShellExecuter();
-                EditText injectfilename = getActivity().findViewById(R.id.injectfilename);
-                String FilePath = data.getData().getPath();
-                FilePath = exe.RunAsRootOutput("echo " + FilePath + " | sed -e 's/\\/document\\/primary:/\\/sdcard\\//g' ");
-                injectfilename.setText(FilePath);
+            if (requestCode == 1001) {
+                if (resultCode == Activity.RESULT_OK) {
+                    ShellExecuter exe = new ShellExecuter();
+                    EditText injectfilename = getActivity().findViewById(R.id.injectfilename);
+                    String FilePath = data.getData().getPath();
+                    FilePath = exe.RunAsRootOutput("echo " + FilePath + " | sed -e 's/\\/document\\/primary:/\\/sdcard\\//g' ");
+                    injectfilename.setText(FilePath);
+                }
             }
         }
-    }
 
     public static class PreferencesData {
 
