@@ -10,8 +10,6 @@ final class TextStyle {
     final static int fxBlink = 1 << 3;
     final static int fxInverse = 1 << 4;
     final static int fxInvisible = 1 << 5;
-    final static int fxIme = 1 << 6;
-    final static int fxImeBackground = 1 << 7;
 
     // Special color indices
     final static int ciForeground = 256; // VT100 text foreground color
@@ -24,7 +22,7 @@ final class TextStyle {
     final static int kNormalTextStyle = encode(ciForeground, ciBackground, fxNormal);
 
     static int encode(int foreColor, int backColor, int effect) {
-        return ((effect & 0xff) << 18) | ((foreColor & 0x1ff) << 9) | (backColor & 0x1ff);
+        return ((effect & 0x3f) << 18) | ((foreColor & 0x1ff) << 9) | (backColor & 0x1ff);
     }
 
     static int decodeForeColor(int encodedColor) {
@@ -36,7 +34,7 @@ final class TextStyle {
     }
 
     static int decodeEffect(int encodedColor) {
-        return (encodedColor >> 18) & 0xff;
+        return (encodedColor >> 18) & 0x3f;
     }
 
     private TextStyle() {

@@ -33,14 +33,14 @@ class ByteQueue {
     }
 
     public int read(byte[] buffer, int offset, int length)
-        throws InterruptedException {
+            throws InterruptedException {
         if (length + offset > buffer.length) {
             throw
-                new IllegalArgumentException("length + offset > buffer.length");
+                    new IllegalArgumentException("length + offset > buffer.length");
         }
         if (length < 0) {
             throw
-            new IllegalArgumentException("length < 0");
+                    new IllegalArgumentException("length < 0");
 
         }
         if (length == 0) {
@@ -80,14 +80,14 @@ class ByteQueue {
      * was written and repeat the call to write() if necessary.
      */
     public int write(byte[] buffer, int offset, int length)
-    throws InterruptedException {
+            throws InterruptedException {
         if (length + offset > buffer.length) {
             throw
-                new IllegalArgumentException("length + offset > buffer.length");
+                    new IllegalArgumentException("length + offset > buffer.length");
         }
         if (length < 0) {
             throw
-            new IllegalArgumentException("length < 0");
+                    new IllegalArgumentException("length < 0");
 
         }
         if (length == 0) {
@@ -109,6 +109,7 @@ class ByteQueue {
             }
             int bytesToCopy = Math.min(oneRun, length);
             System.arraycopy(buffer, offset, mBuffer, tail, bytesToCopy);
+            offset += bytesToCopy;
             mStoredBytes += bytesToCopy;
             if (wasEmpty) {
                 notify();

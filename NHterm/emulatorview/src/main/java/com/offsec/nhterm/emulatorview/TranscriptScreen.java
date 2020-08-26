@@ -96,8 +96,6 @@ class TranscriptScreen implements Screen {
      * @param x X coordinate (also known as column)
      * @param y Y coordinate (also known as row)
      * @param codePoint Unicode codepoint to store
-     * @param foreColor the foreground color
-     * @param backColor the background color
      */
     public void set(int x, int y, int codePoint, int style) {
         mData.setChar(x, y, codePoint, style);
@@ -161,7 +159,6 @@ class TranscriptScreen implements Screen {
      * @param x The x coordinate origin of the drawing
      * @param y The y coordinate origin of the drawing
      * @param renderer The renderer to use to draw the text
-     * @param cx the cursor X coordinate, -1 means don't draw it
      * @param selx1 the text selection start X coordinate
      * @param selx2 the text selection end X coordinate, if equals to selx1 don't draw selection
      * @param imeText current IME text, to be rendered at cursor
@@ -315,7 +312,7 @@ class TranscriptScreen implements Screen {
             } else {
                 // FIXME:
                 int effect = TextStyle.fxUnderline;
-                if (imeColor == IME_GOOGLE) effect |= TextStyle.fxImeBackground;
+                if (imeColor == IME_GOOGLE) effect |= TextStyle.fxNormal;
                 renderer.drawTextRun(canvas, x, y, imePosition, imeLength, imeText.toCharArray(),
                         imeOffset, imeLength, true, TextStyle.encode(0x0f, 0x00, effect),
                         -1, 0, 0, 0, 0);
@@ -347,7 +344,7 @@ class TranscriptScreen implements Screen {
                     int uimeOffset = imeSubText.length() - uimeLength;
                     float ofsx = renderer.getMeasureText(imeText.substring(0, start));
 
-                    textStyle += TextStyle.fxIme;
+                    textStyle += TextStyle.fxNormal;
                     renderer.setImePaint(paint);
                     renderer.drawTextRun(canvas, x+ofsx, y, imePosition, uimeLength, imeSubText.toCharArray(),
                             uimeOffset, uimeLength, true, TextStyle.encode(0x0f, 0x00, textStyle),

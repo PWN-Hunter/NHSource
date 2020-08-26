@@ -4,8 +4,7 @@ import com.offsec.nhterm.emulatorview.compat.AndroidCompat;
 import com.offsec.nhterm.emulatorview.compat.KeyCharacterMapCompat;
 
 import java.io.IOException;
-import java.util.Map;
-import java.util.HashMap;
+import android.util.SparseArray;
 
 import android.util.Log;
 import android.view.KeyCharacterMap;
@@ -32,13 +31,13 @@ class TermKeyListener {
     /** Means this maps raw scancode */
     private static final int KEYMOD_SCAN  = 0x10000000;
 
-    private static Map<Integer, String> mKeyMap;
+    private static SparseArray<String> mKeyMap;
 
     private String[] mKeyCodes = new String[256];
     private String[] mAppKeyCodes = new String[256];
 
     private void initKeyCodes() {
-        mKeyMap = new HashMap<Integer, String>();
+        mKeyMap = new SparseArray<>();
         mKeyMap.put(KEYMOD_SHIFT | KEYCODE_DPAD_LEFT, "\033[1;2D");
         mKeyMap.put(KEYMOD_ALT | KEYCODE_DPAD_LEFT, "\033[1;3D");
         mKeyMap.put(KEYMOD_ALT | KEYMOD_SHIFT | KEYCODE_DPAD_LEFT, "\033[1;4D");
@@ -177,12 +176,9 @@ class TermKeyListener {
         mAppKeyCodes[KEYCODE_NUMPAD_7] = "\033Ow";
         mAppKeyCodes[KEYCODE_NUMPAD_8] = "\033Ox";
         mAppKeyCodes[KEYCODE_NUMPAD_9] = "\033Oy";
-        setCursorKeysApplicationMode(mCursorApplicationMode);
     }
 
-    private boolean mCursorApplicationMode = true;
     public void setCursorKeysApplicationMode(boolean val) {
-        mCursorApplicationMode = val;
         if (LOG_MISC) {
             Log.d(EmulatorDebug.LOG_TAG, "CursorKeysApplicationMode=" + val);
         }
