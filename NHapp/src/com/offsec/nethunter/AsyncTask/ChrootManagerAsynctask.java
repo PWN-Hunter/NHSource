@@ -9,6 +9,7 @@ import com.offsec.nethunter.utils.NhPaths;
 import com.offsec.nethunter.utils.ShellExecuter;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -81,32 +82,29 @@ public class ChrootManagerAsynctask extends AsyncTask<Object, Integer, Void> {
                     int count;
                     URL url = new URL("https://" + objects[1].toString() + objects[2].toString());
                     URLConnection connection = url.openConnection();
-                    connection.connect();
-                    connection.setConnectTimeout(10000);
-                    connection.setReadTimeout(10000);
                     int lengthOfFile = connection.getContentLength();
 
-                    InputStream input = new BufferedInputStream(url.openStream(), 8192);
-                    OutputStream output = new FileOutputStream(objects[3].toString());
+                    InputStream input = connection.getInputStream();
+                    BufferedInputStream reader = new BufferedInputStream(input);
+                    BufferedOutputStream writer = new BufferedOutputStream(new FileOutputStream(objects[3].toString()));
 
                     byte[] data = new byte[1024];
-                    long total = 0;
+                    long bytes = -1;
 
-                    while ((count = input.read(data)) != -1) {
-                        total += count;
-                        int progress = (int) ((total / (float) lengthOfFile) * 100);
+                    while ((count = reader.read(data)) != -1) {
+                        bytes += count;
+                        int progress = (int) ((bytes / (float) lengthOfFile) * 100);
                         publishProgress(progress);
-                        output.write(data, 0, count);
+                        writer.write(data, 0, count);
                     }
-                    output.flush();
-                    output.close();
-                    input.close();
+                    writer.close();
+                    reader.close();
                     exe.RunAsRootOutput("echo \"[+] Download completed.\"", ((TextView)objects[0]));
                     resultCode = exe.RunAsRootOutput(NhPaths.APP_SCRIPTS_PATH + "/chrootmgr -c \"checksha512 " +
                             exe.RunAsRootOutput("ping -c 1 " + objects[1].toString() + " | head -n1 | sed 's/\\(^.*(\\)\\(.*\\)\\().*(.*$\\)/\\2/g'") +
                             objects[2].toString().replace(".tar.xz","") + ".sha512sum " + objects[3].toString() + "\"", ((TextView)objects[0]));
                 } catch (Exception e) {
-                    exe.RunAsRootOutput("echo \"[-]" + e.getMessage() + "\"", ((TextView)objects[0]));
+                    exe.RunAsRootOutput("echo \"[-] " + e.getMessage() + "\"", ((TextView)objects[0]));
                     resultCode = 1;
                 }
                 break;

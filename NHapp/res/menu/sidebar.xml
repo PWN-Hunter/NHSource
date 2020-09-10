@@ -5,17 +5,13 @@
         <item
             android:id="@+id/nethunter_item"
             android:icon="@drawable/ic_action_home"
-            android:title="@string/drawertitlenethunter" />
+            android:title="Home" />
         <item
             android:id="@+id/createchroot_item"
             android:icon="@drawable/ic_action_android"
-            android:title="@string/drawertitlecreatechroot" />
+            android:title="Kali Chroot Manager" />
     </group>
     <group android:id="@+id/chrootDependentGroup">
-        <!-- <item
-             android:id="@+id/kalilauncher_item"
-             android:icon="@drawable/ic_action_launch"
-             android:title="@string/drawertitlekalilauncher" />   -->
          <item
              android:id="@+id/kaliservices_item"
              android:icon="@drawable/ic_action_settings_applications"

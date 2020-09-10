@@ -56,7 +56,7 @@ public class MacchangerFragment extends Fragment {
     private EditText mac6;
     private TextView currentMacTextView;
     private TextView currentHostNameTextView;
-    private ImageButton reloadImageButton;
+    private Button reloadImageButton;
     private static HashMap<String, String> iFaceAndMacHashMap = new HashMap<>();
     private Context context;
     private Activity activity;

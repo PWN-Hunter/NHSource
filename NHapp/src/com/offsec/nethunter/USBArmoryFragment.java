@@ -59,8 +59,8 @@ public class USBArmoryFragment extends Fragment {
     private TextView mountedImageTextView;
     private TextView mountedImageHintTextView;
     private TextView usbNetworkTetheringHintTextView;
-    private ImageButton reloadUSBStateImageButton;
-    private ImageButton reloadMountStateButton;
+    private Button reloadUSBStateImageButton;
+    private Button reloadMountStateButton;
     private LinearLayout imageMounterLL;
     private LinearLayout usbNetworkTetheringLL;
     private Button setUSBIfaceButton;

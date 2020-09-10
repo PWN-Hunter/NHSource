@@ -123,7 +123,7 @@ public class VNCFragment extends Fragment {
         Button StartVNCButton = rootView.findViewById(R.id.start_vnc);
         Button StopVNCButton = rootView.findViewById(R.id.stop_vnc);
         Button OpenVNCButton = rootView.findViewById(R.id.vncClientStart);
-        ImageButton RefreshKeX = rootView.findViewById(R.id.refreshKeX);
+        Button RefreshKeX = rootView.findViewById(R.id.refreshKeX);
         Button AddUserButton = rootView.findViewById(R.id.AddUserButton);
         Button DelUserButton = rootView.findViewById(R.id.DelUserButton);
         Button ResetHDMIButton = rootView.findViewById(R.id.reset_hdmi);

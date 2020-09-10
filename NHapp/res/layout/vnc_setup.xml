@@ -178,13 +178,14 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/guideline_1" />
 
-                <ImageButton
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
                     android:id="@+id/refreshKeX"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:srcCompat="@drawable/ic_action_refresh" />
+                    app:icon="@drawable/ic_action_refresh" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guideline_1"
@@ -276,6 +277,7 @@
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/AddUserButton"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -284,6 +286,7 @@
                     android:textColor="#ffffffff" />
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/DelUserButton"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -330,6 +333,7 @@
                         android:saveEnabled="false" />
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/ApplyResolutionButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -339,6 +343,7 @@
                 </LinearLayout>
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/DelResolutionButton"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -353,6 +358,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/AddResolutionButton"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -362,6 +368,7 @@
                         android:textSize="13sp" />
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/reset_hdmi"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -380,6 +387,7 @@
                     android:paddingBottom="10dp">
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/BackupResolutions"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -389,6 +397,7 @@
                         android:textSize="13sp" />
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/RestoreResolutions"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -422,6 +431,7 @@
                     android:saveEnabled="false" />
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/DelVncResolutionButton"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -430,6 +440,7 @@
                     android:textColor="#ffffffff" />
 
                 <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:id="@+id/AddVncResolutionButton"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -444,6 +455,7 @@
                     android:orientation="horizontal">
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/BackupVncResolutions"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
@@ -453,6 +465,7 @@
                         android:textSize="13sp" />
 
                     <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                         android:id="@+id/RestoreVncResolutions"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"

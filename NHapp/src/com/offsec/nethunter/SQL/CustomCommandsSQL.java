@@ -35,15 +35,6 @@ public class CustomCommandsSQL extends SQLiteOpenHelper {
                     "kali", "interactive", "0"},
             {"2", "Launch Wifite",
                     "wifite",
-                    "kali", "interactive", "0"},
-            {"3", "Start wlan0 in monitor mode",
-                    "su -c \"ip link set wlan0 down; echo 4 > /sys/module/wlan/parameters/con_mode;ip link set wlan0 up\";exit",
-                    "android", "interactive", "0"},
-            {"4", "Stop wlan0 monitor mode",
-                    "su -c \"ip link set wlan0 down; echo 0 > /sys/module/wlan/parameters/con_mode;ip link set wlan0 up; svc wifi enable\";exit",
-                    "android", "interactive", "0"},
-            {"5", "Start wlan1 in monitor mode",
-                    "ip link set wlan1 down && iw wlan1 set monitor control && ip link set wlan1 up;exit",
                     "kali", "interactive", "0"}
     };
 

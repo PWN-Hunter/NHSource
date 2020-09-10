@@ -255,7 +255,7 @@ public class BTFragment extends Fragment {
             });
 
             //Refresh Status
-            ImageButton RefreshStatus = rootView.findViewById(R.id.refreshStatus);
+            Button RefreshStatus = rootView.findViewById(R.id.refreshStatus);
             RefreshStatus.setOnClickListener(v -> {
                 refresh(rootView);
             });
@@ -780,8 +780,8 @@ public class BTFragment extends Fragment {
                     });
 
             //Stream or play audio
-            ImageButton PlayAudioButton = rootView.findViewById(R.id.play_audio);
-            ImageButton StopAudioButton = rootView.findViewById(R.id.stop_audio);
+            Button PlayAudioButton = rootView.findViewById(R.id.play_audio);
+            Button StopAudioButton = rootView.findViewById(R.id.stop_audio);
             AudioTrack audioTrack = new AudioTrack(AudioManager.STREAM_MUSIC, 8000, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT, 20000, AudioTrack.MODE_STREAM);
             PlayAudioButton.setOnClickListener( v -> {
                 File cw_listenfile = new File(nh.SD_PATH + "/rec.raw");

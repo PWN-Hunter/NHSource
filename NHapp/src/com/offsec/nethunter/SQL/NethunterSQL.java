@@ -22,24 +22,25 @@ import java.util.ArrayList;
  /*
     SQLiteOpenHelper class for nethunter fragment.
  */
- public class NethunterSQL extends SQLiteOpenHelper {
-     private static final String DATABASE_NAME = "NethunterFragment";
-     private static NethunterSQL instance;
-     private static final String TAG = "NethunterSQL";
-     private static final String TABLE_NAME = DATABASE_NAME;
-     private static ArrayList<String> COLUMNS = new ArrayList<>();
-     private static final String[][] nethunterData = {
-             {"1", "Start HID", "setprop sys.usb.config win,hid,adb | echo Done || echo Contact admin for help  ", "\\n", "0"},
-             {"2", "Kernel Version", "uname -a", "\\n", "1"},
-             {"3", "Busybox Version (NH_App)", NhPaths.BUSYBOX + " | head -n1", "\\n", "1"},
-             {"4", "Busybox Version (System NH)", "/system/xbin/busybox | head -1 || echo no busybox found in /system/xbin", "\\n", "1"},
-             {"5", "Root Status", "su -v", "\\n", "1"},
-             {"6", "HID status", "ls /dev/hidg* || echo \"HID interface not found.\"", "\\n", "1"},
-             {"7", "Start wlan0 in monitor mode", "svc wifi disable && sleep 2 && echo 4 > /sys/module/wlan/parameters/con_mode && sleep 2 && killall -q -SIGSTOP lowi-server || true && ip link set wlan0 up && echo done", "\\n", "0"},
-             {"7", "Stop wlan0 in monitor mode", "ip link set wlan0 down && sleep 5 && echo 0 > /sys/module/wlan/parameters/con_mode && echo done", "\\n", "0"},
-             {"8", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
-             {"9", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
-     };
+public class NethunterSQL extends SQLiteOpenHelper {
+    private static final String DATABASE_NAME = "NethunterFragment";
+    private static NethunterSQL instance;
+    private static final String TAG = "NethunterSQL";
+    private static final String TABLE_NAME = DATABASE_NAME;
+    private static ArrayList<String> COLUMNS = new ArrayList<>();
+    private static final String[][] nethunterData = {
+            {"1", "Make rndis0 up", "ifconfig rndis0 up | echo Done || echo Contact admin for help  ", "\\n", "0"},
+            {"2", "Kernel Version", "uname -a", "\\n", "1"},
+            {"3", "Busybox Version (NH_App)", NhPaths.BUSYBOX + " | head -n1", "\\n", "1"},
+            {"4", "Busybox Version (System NH)", "/system/xbin/busybox | head -1 || echo no busybox found in /system/xbin", "\\n", "1"},
+            {"5", "System as rw", "mount -o remount,rw / && echo Done ", "\\n", "1"},
+            {"6", "Root Status", "su -v", "\\n", "1"},
+            {"7", "HID status", "ls /dev/hidg* || echo \"HID interface not found.\"", "\\n", "1"},
+            {"8", "Start wlan0 in monitor mode", "svc wifi disable && sleep 2 && echo 4 > /sys/module/wlan/parameters/con_mode && sleep 2 && killall -q -SIGSTOP lowi-server || true && ip link set wlan0 up && echo done", "\\n", "0"},
+            {"9", "Stop wlan0 in monitor mode", "ip link set wlan0 down && sleep 5 && echo 0 > /sys/module/wlan/parameters/con_mode && echo done", "\\n", "0"},
+            {"10", "Network Interface Status", " ip -o addr show | " + NhPaths.BUSYBOX + " awk '{print $2, $3, $4}'", "\\n", "1"},
+            {"11", "External IP", NhPaths.BUSYBOX + " wget -qO - icanhazip.com || curl ipv4.icanhazip.com", "\\n", "0"},
+    };
 
     public synchronized static NethunterSQL getInstance(Context context){
         if (instance == null) {

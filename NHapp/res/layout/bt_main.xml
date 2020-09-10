@@ -62,12 +62,15 @@
                     android:layout_weight="15"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
-                <ImageButton
+                <Button
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
                     android:id="@+id/refreshStatus"
+                    android:layout_marginTop="2dp"
+                    android:minWidth="44dp"
+                    android:minHeight="40dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_action_refresh"
-                    android:layout_weight="1"/>
+                    app:icon="@drawable/ic_action_refresh" />
 
             </LinearLayout>
 

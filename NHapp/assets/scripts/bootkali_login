@@ -19,7 +19,7 @@ fi
 
 if [ ! -d "$MNT" ]; then
     bklog "[-] \"$MNT\" directory not exist!"
-    bklog "[!] Click the button [INSTALL CHROOT] down below now!"
+    bklog "[!] Click the button [INSTALL KALI CHROOT] down below now!"
     exit 2
 fi
 

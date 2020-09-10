@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -204,7 +205,6 @@
                     android:id="@+id/f_usbarmory_btn_saveusbfuncswitch"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="4dp"
                     android:text="SAVE CONFIG TO DATABASE"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
@@ -229,15 +229,15 @@
                             android:layout_height="wrap_content"
                             android:textSize="18sp" />
                     </LinearLayout>
-                    <ImageButton
+                    <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
                         android:id="@+id/f_usbarmory_imgbtn_reloadUSBStatus"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="false"
                         android:baselineAlignBottom="false"
                         android:cropToPadding="false"
-                        android:layout_weight="0.2"
-                        android:src="@drawable/ic_action_refresh" />
+                        app:icon="@drawable/ic_action_refresh" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -352,15 +352,15 @@
                             android:textSize="18sp"
                             android:text="No image is mounted."/>
                     </LinearLayout>
-                    <ImageButton
+                    <Button
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
                         android:id="@+id/f_usbarmory_imgbtn_reloadMountStatus"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="false"
                         android:baselineAlignBottom="false"
                         android:cropToPadding="false"
-                        android:layout_weight="0.2"
-                        android:src="@drawable/ic_action_refresh" />
+                        app:icon="@drawable/ic_action_refresh" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

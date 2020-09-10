@@ -18,6 +18,7 @@
             android:text="@string/mana_hostapd" />
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -27,12 +28,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
-                android:hint="@string/iface"
-                style="@style/DesignTextInput"/>
+                android:hint="@string/iface" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -46,6 +47,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -59,6 +61,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -72,6 +75,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -81,11 +85,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
-                android:hint="@string/enable_karma"
-                style="@style/DesignTextInput"/>
+                android:hint="@string/enable_karma" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="72dp"
             android:padding="4dp">
@@ -95,16 +99,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:ems="10"
-                android:hint="@string/karma_loud"
-                style="@style/DesignTextInput"/>
+                android:hint="@string/karma_loud" />
         </com.google.android.material.textfield.TextInputLayout>
-
-
+        
         <Button
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:id="@+id/updateButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
             android:text="@string/update" />
     </LinearLayout>
 </ScrollView>

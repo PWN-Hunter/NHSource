@@ -1,6 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -184,19 +185,23 @@
             android:text="Kill"
             android:textColor="#ffffffff" />
 
-        <ImageButton
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
             android:id="@+id/play_audio"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="4"
-            android:src="@drawable/ic_action_play" />
+            android:minWidth="44dp"
+            android:minHeight="39dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_action_play" />
 
-        <ImageButton
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.IconOnly"
             android:id="@+id/stop_audio"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="4"
-            android:src="@drawable/ic_action_stop" />
+            android:minWidth="44dp"
+            android:minHeight="39dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/ic_action_stop" />
 
     </LinearLayout>
 
